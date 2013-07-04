@@ -1,0 +1,8 @@
+ org.apache.tools.ant.taskdefs.compilers  X      
+           org.apache.tools.ant.taskdefs X       
+              org.apache.tools.ant.types XX   X  
+               org.apache.tools.ant.util  XX  X  
+        org.apache.tools.ant.util.regexp    X    
+                    org.apache.tools.ant XXXXX   
+                   org.apache.tools.mail  X      
+                    org.apache.tools.tar  X      

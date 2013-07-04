@@ -1,0 +1,4 @@
+ org.apache.tools.ant.taskdefs     
+           com.oreilly.servlet     
+          org.apache.tools.ant X   
+          org.apache.tools.tar X   

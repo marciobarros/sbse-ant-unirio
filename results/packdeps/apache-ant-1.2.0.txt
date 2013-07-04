@@ -1,0 +1,13 @@
+org.apache.tools.ant; 10
+org.apache.tools.ant.taskdefs; 0; 10; 11; 12
+org.apache.tools.ant.taskdefs.optional; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.ejb; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.javacc; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.jlink; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.jsp; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.metamata; 0; 1; 10
+org.apache.tools.ant.taskdefs.optional.perforce; 0; 1
+org.apache.tools.ant.taskdefs.optional.vss; 0; 1; 10
+org.apache.tools.ant.types; 0
+org.apache.tools.mail
+org.apache.tools.tar

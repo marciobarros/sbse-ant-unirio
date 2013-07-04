@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODEM version="1">
+  <header>
+    <created-by>
+      <exporter version="1.1.1">org.pf.tools.cda.ext.export.xml.XmlFileODEMExporter</exporter>
+      <provider>Manfred Duchrow Consulting &amp; Software</provider>
+    </created-by>
+  </header>
+  <context name="Apache Ant 1.4.1">
+    <container name="C:/Users/Marcio/Desktop/Analise Apache ANT/Apache Ant/apache-ant-1.4.1/ant.jar" classification="jar">
+      <namespace name="org.apache.tools.tar">
+        <type name="org.apache.tools.tar.TarBuffer" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.tar.TarConstants" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.tar.TarEntry" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.tar.TarConstants" classification="implements" />
+            <depends-on name="org.apache.tools.tar.TarUtils" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.tar.TarInputStream" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.tar.TarBuffer" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarEntry" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.tar.TarOutputStream" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.tar.TarBuffer" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarEntry" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.tar.TarUtils" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.zip">
+        <type name="org.apache.tools.zip.AsiExtraField" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.zip.ZipExtraField" classification="implements" />
+            <depends-on name="org.apache.tools.zip.UnixStat" classification="implements" />
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipLong" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ZipExtraField" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.UnixStat" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ZipShort" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ExtraFieldUtils" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipExtraField" classification="uses" />
+            <depends-on name="org.apache.tools.zip.UnrecognizedExtraField" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.UnrecognizedExtraField" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.zip.ZipExtraField" classification="implements" />
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ZipEntry" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.zip.ZipExtraField" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ExtraFieldUtils" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ZipLong" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.zip.ZipOutputStream" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.zip.ZipEntry" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipLong" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipShort" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.util.regexp">
+        <type name="org.apache.tools.ant.util.regexp.RegexpMatcher" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.regexp.RegexpMatcherFactory" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.util.regexp.RegexpMatcher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.regexp.JakartaOroMatcher" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.util.regexp.RegexpMatcher" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.regexp.JakartaRegexpMatcher" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.util.regexp.RegexpMatcher" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.util">
+        <type name="org.apache.tools.ant.util.DOMElementWriter" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.FileNameMapper" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.FileUtils" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.types.FilterSetCollection" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.FlatFileNameMapper" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.GlobPatternMapper" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.IdentityMapper" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.MergingMapper" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.RegexpPatternMapper" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+            <depends-on name="org.apache.tools.ant.util.regexp.RegexpMatcher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.regexp.RegexpMatcherFactory" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.util.SourceFileScanner" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant">
+        <type name="org.apache.tools.ant.BuildException" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Location" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectComponent" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Project" classification="class" visibility="public">
+          <dependencies count="12">
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSetCollection" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet$Filter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.PathTokenizer" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.BuildListener" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Task" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Target" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="implements" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.UnknownElement" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.TaskContainer" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.BuildEvent" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.RuntimeConfigurable" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.UnknownElement" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.DirectoryScanner" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.FileScanner" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.FileScanner" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.AntClassLoader$ResourceEnumeration" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.AntClassLoader" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="implements" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader$ResourceEnumeration" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.BuildLogger" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="extends" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Constants" classification="interface" visibility="default" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.DefaultLogger" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.BuildLogger" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.DemuxOutputStream" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.DesirableFilter" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ExitException" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$1" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedCreator" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$2" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedCreator" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$3" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedStorer" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$4" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedCreator" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$5" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$6" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$7" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$8" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$9" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$10" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$11" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$12" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$13" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$14" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$15" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$16" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$17" classification="class" visibility="default">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$18" classification="class" visibility="default">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$NestedCreator" classification="interface" visibility="default" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$NestedStorer" classification="interface" visibility="default" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="interface" visibility="default" isAbstract="yes">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.IntrospectionHelper" classification="class" visibility="public">
+          <dependencies count="27">
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="implements" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$2" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$3" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$4" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedCreator" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$NestedStorer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$5" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$6" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$7" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$8" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$9" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$10" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$11" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$12" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$13" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$14" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$15" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$16" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$17" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper$18" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Launcher$1" classification="class" visibility="default">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Launcher" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Launcher$1" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.Main" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildLogger" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DemuxOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DefaultLogger" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.NoBannerLogger" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.DefaultLogger" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.PathTokenizer" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$RootHandler" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$ProjectHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$ProjectHandler" classification="class" visibility="default">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TaskHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TargetHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$DataTypeHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$TargetHandler" classification="class" visibility="default">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$DataTypeHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TaskHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$TaskHandler" classification="class" visibility="default">
+          <dependencies count="12">
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.UnknownElement" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$NestedElementHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$NestedElementHandler" classification="class" visibility="default">
+          <dependencies count="11">
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.UnknownElement" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TaskHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$DataTypeHandler" classification="class" visibility="default">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.RuntimeConfigurable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$NestedElementHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper$1" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.ProjectHelper" classification="class" visibility="public">
+          <dependencies count="14">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$RootHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.TaskAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$DataTypeHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$NestedElementHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TaskHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$TargetHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$ProjectHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper$AbstractHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.TaskAdapter" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.XmlLogger$TimedElement" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.XmlLogger$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.XmlLogger" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.XmlLogger$1" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.XmlLogger" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.XmlLogger" classification="class" visibility="public">
+          <dependencies count="11">
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="implements" />
+            <depends-on name="org.apache.tools.ant.XmlLogger$TimedElement" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.DOMElementWriter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.XmlLogger$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DefaultLogger" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.types">
+        <type name="org.apache.tools.ant.types.FilterSetCollection" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.FilterSet$Filter" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.FilterSet$FiltersFile" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.FilterSet" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet$Filter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet$FiltersFile" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.DataType" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Reference" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Commandline$Argument" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Commandline$Marker" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Commandline" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Marker" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Path$PathElement" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Path" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path$PathElement" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.PathTokenizer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.FileSet" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.FileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.PatternSet" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.CommandlineJava$SysProperties" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.CommandlineJava" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava$SysProperties" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Environment$Variable" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Environment" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Description" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.EnumeratedAttribute" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.FileList" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Mapper$MapperType" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Mapper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.Mapper" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Mapper$MapperType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.ZipFileSet" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.ZipScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.DataType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.FileScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.types.ZipScanner" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="extends" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.taskdefs">
+        <type name="org.apache.tools.ant.taskdefs.Ant" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Property" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DefaultLogger" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Property" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.AntStructure" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.IntrospectionHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Available" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.CallTarget" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Ant" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Property" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Chmod" classification="class" visibility="public">
+          <dependencies count="13">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteOn" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecTask" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecuteOn$FileDirBoth" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteOn" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecuteOn" classification="class" visibility="public">
+          <dependencies count="16">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Marker" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Mapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteOn$FileDirBoth" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecTask" classification="class" visibility="public">
+          <dependencies count="14">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$Java11CommandLauncher" classification="class" visibility="default">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$Java13CommandLauncher" classification="class" visibility="default">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$CommandLauncherProxy" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$WinNTCommandLauncher" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncherProxy" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$MacCommandLauncher" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncherProxy" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$ScriptCommandLauncher" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncherProxy" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute$1" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Execute" classification="class" visibility="public">
+          <dependencies count="18">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$Java13CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$MacCommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$WinNTCommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$Java11CommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$ScriptCommandLauncher" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute$CommandLauncherProxy" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.CompileTask" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Taskdef" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Definer" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javac" classification="class" visibility="public">
+          <dependencies count="14">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.GlobPatternMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.MatchingTask" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Taskdef" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.Definer" classification="extends" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Definer" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ConditionTask" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.UpToDate" classification="class" visibility="public">
+          <dependencies count="13">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.types.Mapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.MergingMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Copydir" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Copyfile" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Copy" classification="class" visibility="public">
+          <dependencies count="15">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Mapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FlatFileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.IdentityMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSetCollection" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Cvs" classification="class" visibility="public">
+          <dependencies count="15">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.CVSPass" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Delete" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Deltree" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.DependSet" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileList" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Ear" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.Jar" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.ZipFileSet" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Zip" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Jar" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.taskdefs.Zip" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.ZipFileSet" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.FileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ManifestException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Zip$WhenEmpty" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Zip" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Zip" classification="class" visibility="public">
+          <dependencies count="18">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.ZipFileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Zip$WhenEmpty" classification="uses" />
+            <depends-on name="org.apache.tools.ant.FileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.ZipScanner" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.MergingMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Manifest$Attribute" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.ManifestException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Manifest$Section" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest$Attribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ManifestException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Manifest" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest$Section" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Manifest$Attribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ManifestException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ManifestException" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Echo$EchoLevel" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Echo" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Echo" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Echo$EchoLevel" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Exec$StreamPumper" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Exec" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Exec" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Exec$StreamPumper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.ExecuteJava" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava$SysProperties" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Exit" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Expand" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Touch" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Touch" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Filter" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner$BufferLine" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner$BufferLine" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.FixCRLF$AddAsisRemove" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.FixCRLF$CrLf" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.FixCRLF" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$CrLf" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$AddAsisRemove" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner$BufferLine" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.FixCRLF$OneLiner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.GenerateKey$DnameParam" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.GenerateKey" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.GenerateKey$DnameParam" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.GenerateKey" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.GenerateKey" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecTask" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.GenerateKey$DnameParam" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Get" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Touch" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.GUnzip" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.GZip" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.JavacOutputStream" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$DocletParam" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$DocletParam" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$PackageName" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$SourceFile" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$Html" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$AccessType" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$Html" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$PackageName" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$1" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc$JavadocOutputStream" classification="class" visibility="default">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Javadoc" classification="class" visibility="public">
+          <dependencies count="29">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$Html" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$SourceFile" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$PackageName" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$AccessType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$DocletParam" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$JavadocOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javadoc$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet$NameEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.PatternSet" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Java" classification="class" visibility="public">
+          <dependencies count="20">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment$Variable" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ExitException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteJava" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.CommandlineJava$SysProperties" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Environment" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Jikes" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.JikesOutputParser" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.JikesOutputParser" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="implements" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.KeySubst" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.PumpStreamHandler" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="implements" />
+            <depends-on name="org.apache.tools.ant.taskdefs.StreamPumper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Mkdir" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Move" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.taskdefs.Copy" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSetCollection" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FilterSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Parallel$TaskThread" classification="class" visibility="default">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Parallel" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Parallel" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="implements" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Parallel$TaskThread" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Patch" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteWatchdog" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.PathConvert$MapEntry" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.PathConvert" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.PathConvert" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.PathConvert$MapEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.RecorderEntry" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.BuildLogger" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Recorder$ActionChoices" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Recorder" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Recorder$VerbosityLevelChoices" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Recorder" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Recorder" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Recorder$ActionChoices" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Recorder$VerbosityLevelChoices" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.RecorderEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Rename" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Replace$NestedString" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.Replace" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Replace$Replacefilter" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.Replace" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Replace$NestedString" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Replace" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Replace$NestedString" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Replace$Replacefilter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Rmic" classification="class" visibility="public">
+          <dependencies count="14">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.RmicAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SendEmail" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.mail.MailMessage" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Sequential" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.TaskContainer" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SignJar" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecTask" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Sleep" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SQLExec$DelimiterType" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SQLExec$OnError" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SQLExec$Transaction" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.SQLExec" classification="class" visibility="public">
+          <dependencies count="15">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec$Transaction" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec$DelimiterType" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.SQLExec$OnError" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.EnumeratedAttribute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.StreamPumper" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Tar$TarFileSet" classification="class" visibility="public">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="extends" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Tar" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Tar" classification="class" visibility="public">
+          <dependencies count="13">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Tar$TarFileSet" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarEntry" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.SourceFileScanner" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.MergingMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.TaskOutputStream" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Transform" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteOn" classification="extends" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Tstamp$CustomFormat" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.Tstamp" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Tstamp" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Tstamp$CustomFormat" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Typedef" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.Definer" classification="extends" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.Untar" classification="class" visibility="public">
+          <dependencies count="9">
+            <depends-on name="org.apache.tools.ant.Task" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Touch" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarInputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.tar.TarEntry" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.War" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.Jar" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.ZipFileSet" classification="uses" />
+            <depends-on name="org.apache.tools.zip.ZipOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Zip" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.XSLTLiaison" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.XSLTProcess$Param" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.XSLTProcess" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.XSLTProcess" classification="class" visibility="public">
+          <dependencies count="13">
+            <depends-on name="org.apache.tools.ant.taskdefs.MatchingTask" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.XSLTLiaison" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Reference" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.XSLTProcess$Param" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.AntClassLoader" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.DirectoryScanner" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.taskdefs.condition">
+        <type name="org.apache.tools.ant.taskdefs.condition.Condition" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.ConditionBase$ConditionEnumeration" classification="class" visibility="default">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase$1" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.ConditionBase$1" classification="class" visibility="default">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Available" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.UpToDate" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Not" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.And" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Or" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Equals" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Os" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase$ConditionEnumeration" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase$1" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.Not" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.And" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.Or" classification="class" visibility="public">
+          <dependencies count="3">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.ConditionBase" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.Equals" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.condition.Os" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.condition.Condition" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.taskdefs.rmic">
+        <type name="org.apache.tools.ant.taskdefs.rmic.RmicAdapter" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.RmicAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.SunRmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.KaffeRmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.WLRmic" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.SunRmic" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter$RmicFileNameMapper" classification="class" visibility="default">
+          <dependencies count="4">
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="implements" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="12">
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.RmicAdapter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.util.FileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter$RmicFileNameMapper" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.KaffeRmic" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.rmic.WLRmic" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Rmic" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.taskdefs.compilers">
+        <type name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory" classification="class" visibility="public">
+          <dependencies count="11">
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapter" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Jikes" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.JavacExternal" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Javac12" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Javac13" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Jvc" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Kjc" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Gcj" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.Sj" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapter" classification="interface" visibility="public" isAbstract="yes">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="class" visibility="public" isAbstract="yes">
+          <dependencies count="14">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.CompilerAdapter" classification="implements" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.FileSet" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Execute" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogStreamHandler" classification="uses" />
+            <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.ExecuteStreamHandler" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Gcj" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Javac12" classification="class" visibility="public">
+          <dependencies count="7">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.taskdefs.LogOutputStream" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Javac13" classification="class" visibility="public">
+          <dependencies count="6">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.JavacExternal" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Jikes" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Jvc" classification="class" visibility="public">
+          <dependencies count="8">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Kjc" classification="class" visibility="public">
+          <dependencies count="10">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="at.dms.kjc.Main" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Location" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.ant.taskdefs.compilers.Sj" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" classification="extends" />
+            <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
+            <depends-on name="org.apache.tools.ant.taskdefs.Javac" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.types.Commandline" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.listener">
+        <type name="org.apache.tools.ant.listener.Log4jListener" classification="class" visibility="public">
+          <dependencies count="5">
+            <depends-on name="org.apache.tools.ant.BuildListener" classification="implements" />
+            <depends-on name="org.apache.tools.ant.BuildEvent" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Task" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Target" classification="uses" />
+            <depends-on name="org.apache.tools.ant.Project" classification="uses" />
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.mail">
+        <type name="org.apache.tools.mail.MailMessage" classification="class" visibility="public">
+          <dependencies count="2">
+            <depends-on name="org.apache.tools.mail.MailPrintStream" classification="uses" />
+            <depends-on name="org.apache.tools.mail.SmtpResponseReader" classification="uses" />
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.mail.MailPrintStream" classification="class" visibility="default">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+        <type name="org.apache.tools.mail.SmtpResponseReader" classification="class" visibility="public">
+          <dependencies count="0">
+          </dependencies>
+        </type>
+      </namespace>
+      <namespace name="org.apache.tools.ant.taskdefs.optional">
+        <type name="org.apache.tools.ant.taskdefs.optional.TraXLiaison" classification="class" visibility="public">
+          <dependencies count="1">
+            <depends-on name="org.apache.tools.ant.taskdefs.XSLTLiaison" classification="implements" />
+          </dependencies>
+        </type>
+      </namespace>
+    </container>
+  </context>
+</ODEM>

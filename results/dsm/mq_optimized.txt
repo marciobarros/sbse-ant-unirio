@@ -1,0 +1,103 @@
+  28  X                                                                                                     
+  27 X                                                                                                      
+  80    X                                                                                                   
+  81   X                                                                                      X             
+  20      X                                                                                                 
+  21     X                    X                                                                             
+  42                                                                                                        
+  17          X                                                                                             
+  19                                                                                             X          
+  50       XXX                                                                                              
+  71      X                                                                                       X         
+   5             X            X                                                                      X      
+  72           XX             X                                                                      X      
+  41                                                                                                        
+   7              X X                                                                             X         
+  63               X        X       X                                                             X         
+  25                                                                                                        
+  29                                                                                                        
+  38                     X                                                                                  
+  10                     X                   X                                                   X          
+  51                 XXXX                                                                                   
+  93                                                                                                        
+  40                                     X                            X                                     
+   3                      XX                                                                X    X  X       
+  52                          X                                                                             
+  59                         X                               X  X                                XX  X      
+  84                                                                                                        
+  94                                                                                                        
+  75                      X                                                                                 
+  74                             X                                                                          
+  95         X                 XX                                               X X X             X         
+   2               XX       X   XXXX                                                              X         
+  73                                     X                        X                                         
+  69                                                                                                        
+  47                                                                              X               X         
+  37                                 X   X                        X   X                                     
+   0                                 XXXX                X        X   X                             XX      
+  34                                                                                                        
+  88                                                                                                        
+  35                                      X              X        X   X             X            XX XX      
+  96                    X         XX    X  XX                   X             X X   X             X X       
+  91                                                                                                        
+ 101                                                                                                X X     
+  67                                                                                                        
+  78                                                            X                                           
+  22                                          X                                     X                       
+   9                                           X                                X             X             
+  64                                                                                                        
+  60                                                              X                                         
+   4                                                                  X                           X         
+  32                                     X      X  X                                                        
+  45                      X            X         XX                               X         X     X X       
+  61           X              X      X   X      X   XXXXX         X   X                     X     X         
+  87                                                                                                        
+  70                                                            X                                           
+  79                                      X                                                                 
+   8                          X                 X  X     XXXX   X X   X           X         X    XX  X      
+  92                                                                                                        
+  54               X               X                    X                         X              XX X       
+  11              X                X      X  X   X X       X  XX  X             X             X     XXX     
+  62                                                                                                        
+  82                                 X  XXX X   X   XXXXXX  X    X    X                          XX  X      
+  66                                                                                                        
+  65                                                                                                 X      
+   6           X              X        X                         X X                  X              X      
+  68           X              X             X   X X X X  X       XX XX              X X     X    XX  X      
+  12                                                                                                        
+  31                                                                                                        
+  33                                                                                                        
+  36                                                                                                        
+  90                                                                                                        
+  15                                                                                                  X     
+  86                                                                   X                                    
+  24    X    X  X      XX          X                                   XXXXXXX  X   X             X X X     
+  16                                                                            X                           
+  97    X    X       X XX          X        XX                          XXX XXXX    X            XX X X     
+  26                                                                                                        
+  46  X     XX    X   XXX X      X     X      X  XXX    X                        X  X       X     X XX      
+  14                                                                                                        
+  77  X XX XXX       XXXX        X          X X   XX          X        X    X     XX        X     X X       
+  83             X                   X          X    X X          X                                         
+  89 XX     XX X     XXXX   X X        X           X       X     XXX X        X   XX X      X X  XX XX      
+  30                                                                                                        
+  85                                                                                                        
+  76      X                                                                                                 
+  13                                                                 X                 X                    
+  44                                                    X                         X         X     X         
+  43    X                 X X   X  XX  X X X  X  XXXX   XX    X   X        X      X X   XXXX     XX XXX     
+  48                                           X                                                            
+  99   XX      X  XXXXXXX X                 X     XX   X      XXX X     X    XX     XX    X XX   XX XX      
+  23                                                                                                        
+   1                                        X                                                               
+  98 XX XX  XX X X   XXXX X XXXX X X XX X XXXXXXXXXXXXXX XXXX X XXXX XX XXXXXXX XXXXXXXXXXX XXXXX X XXX     
+  39 XX XX XXXXX XXX XXXXXXXX  XXXXXX XXXX XXXXX XXXXX XXX X  XXX XX   XXXXXXXXXXXXXXXX XXXXX XX X  XXX     
+  53                                                                                              X         
+  49  X XX XXXXXXXXXXXXXX XXXXXX X XX  X XXXXXXX XXXXXXXXX XX XXXXX  XXXXXXXXXXXXXXXXXX XXXXX X  XXX XX     
+ 100 XX XXXXXXXX XXXXXXXXXXXXXX  X XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX X XXXXX XX XX X X     
+ 102 XX XXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXX      
+  18        X                                                                                               
+  56                                                                 X                    X                 
+  55                                          X                                         X   X               
+  57                                          X                                         X   X     X         
+  58                               X           X    X                                       X     X X X     

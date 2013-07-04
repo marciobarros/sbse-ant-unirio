@@ -1,0 +1,13 @@
+          org.apache.tools.ant.taskdefs.optional              
+      org.apache.tools.ant.taskdefs.optional.ejb              
+   org.apache.tools.ant.taskdefs.optional.javacc              
+    org.apache.tools.ant.taskdefs.optional.jlink              
+      org.apache.tools.ant.taskdefs.optional.jsp              
+ org.apache.tools.ant.taskdefs.optional.metamata              
+ org.apache.tools.ant.taskdefs.optional.perforce              
+      org.apache.tools.ant.taskdefs.optional.vss              
+                   org.apache.tools.ant.taskdefs XXXXXXXX     
+                      org.apache.tools.ant.types XXXXXX XX X  
+                            org.apache.tools.ant XXXXXXXXXX   
+                           org.apache.tools.mail         X    
+                            org.apache.tools.tar         X    

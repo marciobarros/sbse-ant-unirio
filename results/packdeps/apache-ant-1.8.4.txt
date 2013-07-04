@@ -1,0 +1,59 @@
+org.apache.tools.ant; 1; 5; 7; 8; 9; 11; 39; 43; 46; 49; 52
+org.apache.tools.ant.dispatch; 0
+org.apache.tools.ant.filters; 0; 8; 11; 39; 43; 49; 54
+org.apache.tools.ant.filters.util; 0; 2; 39; 49
+org.apache.tools.ant.helper; 0; 39; 43; 49; 58
+org.apache.tools.ant.input; 0; 9; 49
+org.apache.tools.ant.listener; 0; 13; 49; 56
+org.apache.tools.ant.loader; 0; 39
+org.apache.tools.ant.property; 0
+org.apache.tools.ant.taskdefs; 0; 2; 3; 5; 8; 10; 11; 13; 14; 38; 39; 43; 44; 45; 46; 47; 48; 49; 51; 55; 57; 58
+org.apache.tools.ant.taskdefs.compilers; 0; 9; 11; 39; 49
+org.apache.tools.ant.taskdefs.condition; 0; 9; 39; 43; 46; 49; 54; 58
+org.apache.tools.ant.taskdefs.cvslib; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.email; 0; 39; 43; 49; 56
+org.apache.tools.ant.taskdefs.optional; 0; 9; 11; 25; 29; 39; 43; 49; 51; 54
+org.apache.tools.ant.taskdefs.optional.ccm; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.clearcase; 0; 9; 11; 39; 49
+org.apache.tools.ant.taskdefs.optional.depend; 0; 9; 18; 39; 49; 50
+org.apache.tools.ant.taskdefs.optional.depend.constantpool
+org.apache.tools.ant.taskdefs.optional.ejb; 0; 9; 39; 49; 50
+org.apache.tools.ant.taskdefs.optional.extension; 0; 21; 39; 49
+org.apache.tools.ant.taskdefs.optional.extension.resolvers; 0; 9; 20
+org.apache.tools.ant.taskdefs.optional.i18n; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.j2ee; 0; 9; 39
+org.apache.tools.ant.taskdefs.optional.javacc; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.javah; 0; 9; 14; 39; 49
+org.apache.tools.ant.taskdefs.optional.jlink; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.jsp; 0; 9; 28; 39; 49
+org.apache.tools.ant.taskdefs.optional.jsp.compilers; 0; 9; 27; 39
+org.apache.tools.ant.taskdefs.optional.native2ascii; 0; 9; 14; 39; 49
+org.apache.tools.ant.taskdefs.optional.net; 0; 13
+org.apache.tools.ant.taskdefs.optional.pvcs; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.script; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.sos; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.testing; 0; 9; 11; 49
+org.apache.tools.ant.taskdefs.optional.unix; 0; 1; 9; 11; 39; 49
+org.apache.tools.ant.taskdefs.optional.vss; 0; 9; 39; 49
+org.apache.tools.ant.taskdefs.optional.windows; 0; 9; 11; 39
+org.apache.tools.ant.taskdefs.rmic; 0; 9; 39; 49
+org.apache.tools.ant.types; 0; 2; 4; 9; 11; 43; 46; 47; 49; 54; 57; 58
+org.apache.tools.ant.types.mappers; 0; 3; 39; 49
+org.apache.tools.ant.types.optional; 0; 2; 11; 39; 46; 49
+org.apache.tools.ant.types.optional.depend; 0; 39; 49; 50
+org.apache.tools.ant.types.resources; 0; 3; 9; 39; 44; 45; 46; 49; 55; 57; 58
+org.apache.tools.ant.types.resources.comparators; 0; 39; 43; 49
+org.apache.tools.ant.types.resources.selectors; 0; 39; 43; 44; 46; 49; 54
+org.apache.tools.ant.types.selectors; 0; 11; 39; 43; 45; 47; 49; 54
+org.apache.tools.ant.types.selectors.modifiedselector; 0; 39; 43; 45; 46; 49
+org.apache.tools.ant.types.spi; 0
+org.apache.tools.ant.util; 0; 3; 9; 11; 39; 43; 45; 46; 54
+org.apache.tools.ant.util.depend; 0; 39; 49
+org.apache.tools.ant.util.facade; 0; 39
+org.apache.tools.ant.util.java15; 0
+org.apache.tools.ant.util.optional; 0; 49
+org.apache.tools.ant.util.regexp; 0; 49
+org.apache.tools.bzip2
+org.apache.tools.mail
+org.apache.tools.tar
+org.apache.tools.zip

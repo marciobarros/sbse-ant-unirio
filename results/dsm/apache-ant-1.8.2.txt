@@ -1,0 +1,59 @@
+       org.apache.tools.ant.taskdefs.optional.jsp.compilers  X                                                         
+                 org.apache.tools.ant.taskdefs.optional.jsp X                                                          
+ org.apache.tools.ant.taskdefs.optional.extension.resolvers    X                                                       
+           org.apache.tools.ant.taskdefs.optional.extension   X                                                        
+               org.apache.tools.ant.taskdefs.optional.javah       X                                                    
+        org.apache.tools.ant.taskdefs.optional.native2ascii       X                                                    
+                     org.apache.tools.ant.taskdefs.optional     XX                                  X                  
+      org.apache.tools.ant.types.selectors.modifiedselector           X                             X       X          
+                        org.apache.tools.ant.types.optional                                                            
+             org.apache.tools.ant.types.resources.selectors        X  X        X                    X    X             
+                       org.apache.tools.ant.types.selectors        XXX         X     X              X    X  X    X     
+                         org.apache.tools.ant.types.mappers                                                            
+                              org.apache.tools.ant.listener                                                            
+                 org.apache.tools.ant.taskdefs.optional.net                                                            
+                          org.apache.tools.ant.filters.util            X       X                    X    X             
+                                org.apache.tools.ant.helper                                                 X          
+                        org.apache.tools.ant.taskdefs.email             XX                          X                  
+           org.apache.tools.ant.types.resources.comparators          X         X                    X                  
+                               org.apache.tools.ant.filters         X     X                         X       X          
+                       org.apache.tools.ant.types.resources       XX XX    XXXX      X              X    X  X    X     
+           org.apache.tools.ant.taskdefs.optional.clearcase                                                            
+             org.apache.tools.ant.taskdefs.optional.testing                                                            
+                org.apache.tools.ant.taskdefs.optional.unix                                                            
+             org.apache.tools.ant.taskdefs.optional.windows                                                            
+                    org.apache.tools.ant.taskdefs.compilers                                         X                  
+                    org.apache.tools.ant.taskdefs.condition       X X X       X XXXXX               X    X  X    X     
+                       org.apache.tools.ant.taskdefs.cvslib                                                            
+                 org.apache.tools.ant.taskdefs.optional.ccm                                                            
+              org.apache.tools.ant.taskdefs.optional.depend                                                            
+                 org.apache.tools.ant.taskdefs.optional.ejb                                                            
+                org.apache.tools.ant.taskdefs.optional.i18n                                                            
+                org.apache.tools.ant.taskdefs.optional.j2ee                                                            
+              org.apache.tools.ant.taskdefs.optional.javacc                                                            
+               org.apache.tools.ant.taskdefs.optional.jlink                                                            
+                org.apache.tools.ant.taskdefs.optional.pvcs                                                            
+              org.apache.tools.ant.taskdefs.optional.script                                                            
+                 org.apache.tools.ant.taskdefs.optional.sos                                                            
+                 org.apache.tools.ant.taskdefs.optional.vss                                                            
+                         org.apache.tools.ant.taskdefs.rmic                                         X                  
+                                 org.apache.tools.ant.input                                         X            X     
+                              org.apache.tools.ant.taskdefs XXX XXX            XXXXXXXXXXXXXXXXXXXXX     X  X    X     
+                 org.apache.tools.ant.types.optional.depend                                                            
+                         org.apache.tools.ant.util.optional                                                            
+                           org.apache.tools.ant.util.depend                             XX           X                 
+                           org.apache.tools.ant.util.regexp       X  XX       X      X                   X  X          
+                                  org.apache.tools.ant.util  X XXXXXXXXXX XXXXXXXXX XXXXXXX XXXXXXXXXXXXX   X    X     
+                                org.apache.tools.ant.loader                                                      X     
+                           org.apache.tools.ant.util.facade       X                                 X                  
+                                 org.apache.tools.ant.types XX XXXXXXXXX  XXXXXXX XXXXXXXXXXXXXXXXX XX X XXX     X     
+                             org.apache.tools.ant.types.spi                                         X                  
+                           org.apache.tools.ant.util.java15                                                      X     
+                              org.apache.tools.ant.dispatch                       X                              X     
+                              org.apache.tools.ant.property                                         X            X     
+                                       org.apache.tools.ant XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      
+ org.apache.tools.ant.taskdefs.optional.depend.constantpool                             X                              
+                                     org.apache.tools.bzip2                    X                    X                  
+                                      org.apache.tools.mail             X   X                                          
+                                       org.apache.tools.tar                    X                    X       X          
+                                       org.apache.tools.zip                X   X     X              X       X          

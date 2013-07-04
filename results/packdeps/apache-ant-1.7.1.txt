@@ -1,0 +1,29 @@
+org.apache.tools.ant; 1; 4; 5; 8; 10; 14; 16; 19; 22
+org.apache.tools.ant.dispatch; 0
+org.apache.tools.ant.filters; 0; 10; 14; 22; 24
+org.apache.tools.ant.filters.util; 0; 2; 14; 22
+org.apache.tools.ant.helper; 0; 22
+org.apache.tools.ant.input; 0; 8; 22
+org.apache.tools.ant.listener; 0; 12; 22; 26
+org.apache.tools.ant.loader; 0
+org.apache.tools.ant.taskdefs; 0; 2; 3; 4; 5; 9; 10; 12; 13; 14; 16; 17; 18; 19; 20; 21; 22; 23; 25; 27; 28
+org.apache.tools.ant.taskdefs.compilers; 0; 8; 10; 14; 22
+org.apache.tools.ant.taskdefs.condition; 0; 8; 14; 16; 19; 22; 24; 28
+org.apache.tools.ant.taskdefs.cvslib; 0; 8; 14; 22
+org.apache.tools.ant.taskdefs.email; 0; 14; 16; 22; 26
+org.apache.tools.ant.taskdefs.rmic; 0; 8; 14; 22
+org.apache.tools.ant.types; 0; 2; 4; 8; 10; 16; 19; 20; 22; 24; 27; 28
+org.apache.tools.ant.types.mappers; 0; 3; 14; 22
+org.apache.tools.ant.types.resources; 0; 14; 17; 18; 19; 22; 25; 27; 28
+org.apache.tools.ant.types.resources.comparators; 0; 14; 16; 22
+org.apache.tools.ant.types.resources.selectors; 0; 14; 16; 17; 19; 22
+org.apache.tools.ant.types.selectors; 0; 10; 14; 16; 18; 20; 22; 24
+org.apache.tools.ant.types.selectors.modifiedselector; 0; 14; 16; 18; 19; 22
+org.apache.tools.ant.types.spi; 0
+org.apache.tools.ant.util; 0; 3; 10; 14; 16; 18; 19; 24
+org.apache.tools.ant.util.facade; 14
+org.apache.tools.ant.util.regexp; 0; 22
+org.apache.tools.bzip2
+org.apache.tools.mail
+org.apache.tools.tar
+org.apache.tools.zip

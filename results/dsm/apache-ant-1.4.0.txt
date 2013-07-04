@@ -1,0 +1,13 @@
+  org.apache.tools.ant.taskdefs.optional              
+ org.apache.tools.ant.taskdefs.compilers     X        
+ org.apache.tools.ant.taskdefs.condition     X        
+      org.apache.tools.ant.taskdefs.rmic     X        
+           org.apache.tools.ant.taskdefs XXXX         
+               org.apache.tools.ant.util    XX X  X   
+              org.apache.tools.ant.types  X XXX   X   
+           org.apache.tools.ant.listener              
+        org.apache.tools.ant.util.regexp      X       
+                    org.apache.tools.ant  XXXXXXXX    
+                   org.apache.tools.mail     X        
+                    org.apache.tools.tar     X        
+                    org.apache.tools.zip     X        

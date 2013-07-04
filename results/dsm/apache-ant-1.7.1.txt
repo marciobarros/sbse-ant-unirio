@@ -1,0 +1,29 @@
+                    org.apache.tools.ant.types.mappers                              
+                     org.apache.tools.ant.filters.util X       X           X        
+               org.apache.tools.ant.taskdefs.compilers         X                    
+                          org.apache.tools.ant.filters  X      X        X           
+                  org.apache.tools.ant.taskdefs.cvslib                              
+                    org.apache.tools.ant.taskdefs.rmic         X                    
+                            org.apache.tools.ant.input         X               X    
+               org.apache.tools.ant.taskdefs.condition   XX    X  X     X  X   X    
+                         org.apache.tools.ant.taskdefs   X XXXX         X      X    
+ org.apache.tools.ant.types.selectors.modifiedselector         X  X     X           
+        org.apache.tools.ant.types.resources.selectors         XX X   X    X        
+                  org.apache.tools.ant.types.selectors        XXXX    X X  X   X    
+                         org.apache.tools.ant.listener                              
+                   org.apache.tools.ant.taskdefs.email         X   X                
+      org.apache.tools.ant.types.resources.comparators         X X    X             
+                  org.apache.tools.ant.types.resources        XXXXX XX  X  X   X    
+                      org.apache.tools.ant.util.facade         X                    
+                            org.apache.tools.ant.types XXXXXX XXXXX XXXX   X   X    
+                           org.apache.tools.ant.helper         X        X      X    
+                      org.apache.tools.ant.util.regexp    X   X   X     X  X        
+                             org.apache.tools.ant.util XXXXXXXXXXXXXXXX XXX    X    
+                           org.apache.tools.ant.loader                              
+                         org.apache.tools.ant.dispatch                         X    
+                        org.apache.tools.ant.types.spi         X                    
+                                  org.apache.tools.ant XXXXXXXXXXXXXXXX XXXXXXX     
+                                org.apache.tools.bzip2         X      X             
+                                 org.apache.tools.mail             XX               
+                                  org.apache.tools.tar         X      X X           
+                                  org.apache.tools.zip        XX      X X           

@@ -1,0 +1,24 @@
+                          org.apache.tools.ant.filters  X            X         
+                     org.apache.tools.ant.filters.util X        X       X      
+ org.apache.tools.ant.types.selectors.modifiedselector    X     X    X         
+                  org.apache.tools.ant.types.selectors   X      X    X  X X    
+                  org.apache.tools.ant.taskdefs.cvslib                         
+                           org.apache.tools.ant.loader                    X    
+               org.apache.tools.ant.taskdefs.compilers          X              
+                    org.apache.tools.ant.taskdefs.rmic          X              
+               org.apache.tools.ant.taskdefs.condition    X     X       X X    
+                         org.apache.tools.ant.taskdefs     XXXXX     X    X    
+                         org.apache.tools.ant.listener                         
+                   org.apache.tools.ant.types.resolver                         
+                      org.apache.tools.ant.util.facade          X              
+                   org.apache.tools.ant.taskdefs.email          XX             
+                            org.apache.tools.ant.types XXXXX XXXX XXX   X X    
+                            org.apache.tools.ant.input          X         X    
+                           org.apache.tools.ant.helper          X    X    X    
+                             org.apache.tools.ant.util XX XXXXXXXX  XXXX  X    
+                      org.apache.tools.ant.util.regexp X  X          X  X      
+                                  org.apache.tools.ant XXXXXXXXXXXX XXXXXX     
+                                org.apache.tools.bzip2          X              
+                                  org.apache.tools.tar          X              
+                                 org.apache.tools.mail           X  X          
+                                  org.apache.tools.zip          X    X         
