@@ -219,7 +219,7 @@ public class ClusteringCalculator
 	/**
 	 * Calcula o numero de dependências com origem em um dado pacote e término em outro de um pacote
 	 */
-	protected int countOutboundEdges(int packageIndex)
+	public int countOutboundEdges(int packageIndex)
 	{
 		int edges = 0;
 
@@ -239,9 +239,37 @@ public class ClusteringCalculator
 	}
 
 	/**
+	 * 
+	 */
+	public int calculateEfferentCoupling(int packageIndex)
+	{
+		int[] efferentClasses = new int[classCount];
+
+		for (int i = 0; i < classCount; i++)
+		{
+			int currentPackage = newPackage[i];
+			
+			if (currentPackage != packageIndex)
+				continue;
+			
+			for (int j = 0; j < classCount; j++)
+				if (dependencies[i][j] > 0 && newPackage[j] != currentPackage)
+					efferentClasses[j] = 1;
+		}
+
+		int count = 0;
+		
+		for (int i = 0; i < classCount; i++)
+			if (efferentClasses[i] > 0)
+				count++;
+
+		return count;
+	}
+
+	/**
 	 * Calcula o numero de dependências com um pacote e término em um dado pacote
 	 */
-	protected int countInboundEdges(int packageIndex)
+	public int countInboundEdges(int packageIndex)
 	{
 		int edges = 0;
 
@@ -259,11 +287,38 @@ public class ClusteringCalculator
 
 		return edges;
 	}
+
+	/**
+	 * Calcula o numero de dependências de classes externas a um pacote que dependem dele
+	 */
+	public int calculateAfferentCoupling(int packageIndex)
+	{
+		int afferentClasses = 0;
+
+		for (int i = 0; i < classCount; i++)
+		{
+			int currentPackage = newPackage[i];
+			
+			if (currentPackage == packageIndex)
+				continue;
+			
+			boolean dependsOnPackage = false;
+			
+			for (int j = 0; j < classCount && !dependsOnPackage; j++)
+				if (dependencies[i][j] > 0 && newPackage[j] == packageIndex)
+					dependsOnPackage = true;
+			
+			if (dependsOnPackage)
+				afferentClasses++;
+		}
+
+		return afferentClasses;
+	}
 	
 	/**
 	 * Calcula o número de dependências internas de um pacote
 	 */
-	protected int countIntraEdges(int packageIndex)
+	public int countIntraEdges(int packageIndex)
 	{
 		int edges = 0;
 
