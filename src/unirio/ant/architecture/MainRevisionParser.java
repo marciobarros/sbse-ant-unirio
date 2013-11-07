@@ -61,7 +61,7 @@ public class MainRevisionParser
 		return false;
 	}
 	
-	private void readRevisions(String filename, PrintStream ps) throws IOException
+	private void saveRevisionsByVersion(String filename, PrintStream ps) throws IOException
 	{
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		String line;
@@ -112,14 +112,73 @@ public class MainRevisionParser
 
 		br.close();		
 	}
+	
+	private void saveRevisionsByYear(String filename, PrintStream ps) throws IOException
+	{
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+		String line;
+		
+		int lastYear = 0;
+		String lastRevision = "";
+		String lastAuthor = "";
+		int lastClasses = 0;
+		List<String> lastPackages = new ArrayList<String>();
+		ps.println("year\tauthor\tclasses\tpackages");
+		
+		while ((line = br.readLine()) != null) 
+		{
+			if (line.length() > 0)
+			{
+				String tokens[] = line.split(" ");
+				
+				String sdata = tokens[0];
+				String revision = tokens[1];
+				String author = tokens[2];
+				String clazz = tokens[3];
+				
+				clazz = clazz.substring(0, clazz.lastIndexOf('.'));
+				//String className = clazz.substring(clazz.lastIndexOf('.') + 1);
+				String packageName = clazz.substring(0, clazz.lastIndexOf('.'));
+
+				if (revision.compareToIgnoreCase(lastRevision) != 0)
+				{
+					if (lastYear > 0)
+						ps.println(lastYear + "\t" + lastAuthor + "\t" + lastClasses + "\t" + lastPackages.size());
+					
+					lastYear = Integer.parseInt(sdata.substring(0, 4));
+					lastRevision = revision;
+					lastAuthor = author;
+					lastClasses = 0;
+					lastPackages.clear();
+				}
+				
+				if (!hasPackage(lastPackages, packageName))
+					lastPackages.add(packageName);
+				
+				lastClasses++;
+			}
+		}
+
+		if (lastYear > 0)
+			ps.println(lastYear + "\t" + lastAuthor + "\t" + lastClasses + "\t" + lastPackages.size());
+
+		br.close();		
+	}
 
 	public static void main(String[] args) throws IOException
 	{
 		MainRevisionParser mrp = new MainRevisionParser();
-		FileOutputStream out = new FileOutputStream("revisions.data"); 
-		PrintStream ps = new PrintStream(out);
-		mrp.readRevisions("log_summary.data", ps);
-		ps.close();
+		
+		FileOutputStream out1 = new FileOutputStream("log_years.data"); 
+		PrintStream ps1 = new PrintStream(out1);
+		mrp.saveRevisionsByYear("log_summary.data", ps1);
+		ps1.close();
+
+		FileOutputStream out2 = new FileOutputStream("log_versions.data"); 
+		PrintStream ps2 = new PrintStream(out2);
+		mrp.saveRevisionsByVersion("log_summary.data", ps2);
+		ps2.close();
+		
 		System.out.println("Finished!");
 	}
 }
