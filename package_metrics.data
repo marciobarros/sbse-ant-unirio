@@ -1,659 +1,659 @@
-version	package	affcoup	effcoup	cohe
-1.1.0	com.oreilly.servlet	0	0	2
-1.1.0	org.apache.tools.ant.taskdefs	0	15	47
-1.1.0	org.apache.tools.ant	45	0	151
-1.1.0	org.apache.tools.tar	2	0	6
-1.2.0	org.apache.tools.ant	97	2	186
-1.2.0	org.apache.tools.ant.taskdefs	12	28	125
-1.2.0	org.apache.tools.ant.taskdefs.optional	0	10	0
-1.2.0	org.apache.tools.ant.taskdefs.optional.ejb	0	8	12
-1.2.0	org.apache.tools.ant.taskdefs.optional.javacc	0	11	0
-1.2.0	org.apache.tools.ant.taskdefs.optional.jlink	0	6	4
-1.2.0	org.apache.tools.ant.taskdefs.optional.jsp	0	8	0
-1.2.0	org.apache.tools.ant.taskdefs.optional.metamata	0	11	0
-1.2.0	org.apache.tools.ant.taskdefs.optional.perforce	0	2	0
-1.2.0	org.apache.tools.ant.taskdefs.optional.vss	0	10	1
-1.2.0	org.apache.tools.ant.types	45	5	29
-1.2.0	org.apache.tools.mail	1	0	2
-1.2.0	org.apache.tools.tar	2	0	6
-1.3.0	org.apache.tools.ant	103	3	189
-1.3.0	org.apache.tools.ant.taskdefs	6	40	145
-1.3.0	org.apache.tools.ant.taskdefs.compilers	1	13	10
-1.3.0	org.apache.tools.ant.types	48	8	41
-1.3.0	org.apache.tools.ant.util	10	4	6
-1.3.0	org.apache.tools.ant.util.regexp	1	1	3
-1.3.0	org.apache.tools.mail	1	0	2
-1.3.0	org.apache.tools.tar	2	0	6
-1.4.0	org.apache.tools.ant	143	8	238
-1.4.0	org.apache.tools.ant.listener	0	5	0
-1.4.0	org.apache.tools.ant.taskdefs	18	55	189
-1.4.0	org.apache.tools.ant.taskdefs.compilers	1	14	18
-1.4.0	org.apache.tools.ant.taskdefs.condition	3	6	18
-1.4.0	org.apache.tools.ant.taskdefs.rmic	1	12	10
-1.4.0	org.apache.tools.ant.types	73	9	50
-1.4.0	org.apache.tools.ant.util	16	6	6
-1.4.0	org.apache.tools.ant.util.regexp	1	1	3
-1.4.0	org.apache.tools.mail	1	0	2
-1.4.0	org.apache.tools.tar	2	0	6
-1.4.0	org.apache.tools.zip	4	0	16
-1.4.0	org.apache.tools.ant.taskdefs.optional	0	1	0
-1.4.1	org.apache.tools.tar	2	0	6
-1.4.1	org.apache.tools.zip	4	0	16
-1.4.1	org.apache.tools.ant.util.regexp	1	1	3
-1.4.1	org.apache.tools.ant.util	17	6	7
-1.4.1	org.apache.tools.ant	143	8	238
-1.4.1	org.apache.tools.ant.types	73	9	50
-1.4.1	org.apache.tools.ant.taskdefs	18	55	189
-1.4.1	org.apache.tools.ant.taskdefs.condition	3	6	18
-1.4.1	org.apache.tools.ant.taskdefs.rmic	1	12	10
-1.4.1	org.apache.tools.ant.taskdefs.compilers	1	14	18
-1.4.1	org.apache.tools.ant.listener	0	5	0
-1.4.1	org.apache.tools.mail	1	0	2
-1.4.1	org.apache.tools.ant.taskdefs.optional	0	1	0
-1.5.0	org.apache.tools.ant	212	18	165
-1.5.0	org.apache.tools.ant.filters	3	8	40
-1.5.0	org.apache.tools.ant.filters.util	4	12	0
-1.5.0	org.apache.tools.ant.helper	1	13	28
-1.5.0	org.apache.tools.ant.input	4	1	7
-1.5.0	org.apache.tools.ant.listener	0	5	0
-1.5.0	org.apache.tools.ant.taskdefs	21	92	236
-1.5.0	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.5.0	org.apache.tools.ant.taskdefs.condition	16	7	27
-1.5.0	org.apache.tools.ant.taskdefs.cvslib	0	16	13
-1.5.0	org.apache.tools.ant.taskdefs.email	1	9	11
-1.5.0	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.5.0	org.apache.tools.ant.types	121	43	75
-1.5.0	org.apache.tools.ant.types.selectors	3	14	77
-1.5.0	org.apache.tools.ant.util	59	8	12
-1.5.0	org.apache.tools.ant.util.facade	4	2	1
-1.5.0	org.apache.tools.ant.util.regexp	3	2	5
-1.5.0	org.apache.tools.bzip2	4	0	9
-1.5.0	org.apache.tools.mail	2	0	3
-1.5.0	org.apache.tools.tar	2	0	6
-1.5.0	org.apache.tools.zip	4	0	16
-1.5.1	org.apache.tools.ant	212	18	165
-1.5.1	org.apache.tools.ant.filters	3	8	40
-1.5.1	org.apache.tools.ant.filters.util	4	12	0
-1.5.1	org.apache.tools.ant.helper	1	13	28
-1.5.1	org.apache.tools.ant.input	4	1	7
-1.5.1	org.apache.tools.ant.listener	0	5	0
-1.5.1	org.apache.tools.ant.taskdefs	21	92	236
-1.5.1	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.5.1	org.apache.tools.ant.taskdefs.condition	16	7	27
-1.5.1	org.apache.tools.ant.taskdefs.cvslib	0	16	13
-1.5.1	org.apache.tools.ant.taskdefs.email	1	9	11
-1.5.1	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.5.1	org.apache.tools.ant.types	121	43	75
-1.5.1	org.apache.tools.ant.types.selectors	3	14	77
-1.5.1	org.apache.tools.ant.util	60	8	12
-1.5.1	org.apache.tools.ant.util.facade	4	2	1
-1.5.1	org.apache.tools.ant.util.regexp	3	2	5
-1.5.1	org.apache.tools.bzip2	4	0	9
-1.5.1	org.apache.tools.mail	2	0	3
-1.5.1	org.apache.tools.tar	2	0	6
-1.5.1	org.apache.tools.zip	4	0	16
-1.5.2	org.apache.tools.ant	216	20	168
-1.5.2	org.apache.tools.ant.filters	3	9	40
-1.5.2	org.apache.tools.ant.filters.util	4	12	0
-1.5.2	org.apache.tools.ant.helper	1	13	28
-1.5.2	org.apache.tools.ant.input	4	1	7
-1.5.2	org.apache.tools.ant.listener	0	6	0
-1.5.2	org.apache.tools.ant.taskdefs	21	95	242
-1.5.2	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.5.2	org.apache.tools.ant.taskdefs.condition	16	7	27
-1.5.2	org.apache.tools.ant.taskdefs.cvslib	0	15	13
-1.5.2	org.apache.tools.ant.taskdefs.email	1	10	11
-1.5.2	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.5.2	org.apache.tools.ant.types	124	43	77
-1.5.2	org.apache.tools.ant.types.selectors	4	14	77
-1.5.2	org.apache.tools.ant.util	62	11	14
-1.5.2	org.apache.tools.ant.util.facade	4	2	1
-1.5.2	org.apache.tools.ant.util.regexp	3	2	5
-1.5.2	org.apache.tools.bzip2	4	0	9
-1.5.2	org.apache.tools.mail	2	0	3
-1.5.2	org.apache.tools.tar	2	0	6
-1.5.2	org.apache.tools.zip	4	0	16
-1.5.3	org.apache.tools.ant.listener	0	6	0
-1.5.3	org.apache.tools.ant	216	20	168
-1.5.3	org.apache.tools.ant.types	125	43	77
-1.5.3	org.apache.tools.ant.types.selectors	4	14	77
-1.5.3	org.apache.tools.ant.input	4	1	7
-1.5.3	org.apache.tools.ant.util	64	11	14
-1.5.3	org.apache.tools.ant.util.facade	4	2	1
-1.5.3	org.apache.tools.ant.util.regexp	3	2	5
-1.5.3	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.5.3	org.apache.tools.ant.taskdefs	21	95	245
-1.5.3	org.apache.tools.ant.taskdefs.condition	16	7	27
-1.5.3	org.apache.tools.ant.taskdefs.cvslib	0	15	13
-1.5.3	org.apache.tools.ant.taskdefs.email	1	10	11
-1.5.3	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.5.3	org.apache.tools.ant.filters	3	9	40
-1.5.3	org.apache.tools.ant.filters.util	4	12	0
-1.5.3	org.apache.tools.ant.helper	1	13	28
-1.5.3	org.apache.tools.zip	4	0	16
-1.5.3	org.apache.tools.tar	2	0	6
-1.5.3	org.apache.tools.bzip2	4	0	9
-1.5.3	org.apache.tools.mail	2	0	3
-1.5.4	org.apache.tools.ant	216	20	168
-1.5.4	org.apache.tools.ant.types	125	43	77
-1.5.4	org.apache.tools.ant.types.selectors	4	14	77
-1.5.4	org.apache.tools.ant.input	4	1	7
-1.5.4	org.apache.tools.ant.util	64	11	14
-1.5.4	org.apache.tools.ant.util.regexp	3	2	5
-1.5.4	org.apache.tools.ant.util.facade	4	2	1
-1.5.4	org.apache.tools.ant.filters	3	9	40
-1.5.4	org.apache.tools.ant.filters.util	4	12	0
-1.5.4	org.apache.tools.ant.helper	1	13	28
-1.5.4	org.apache.tools.ant.listener	0	6	0
-1.5.4	org.apache.tools.ant.taskdefs	21	95	245
-1.5.4	org.apache.tools.ant.taskdefs.condition	16	7	27
-1.5.4	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.5.4	org.apache.tools.ant.taskdefs.cvslib	0	15	13
-1.5.4	org.apache.tools.ant.taskdefs.email	1	10	11
-1.5.4	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.5.4	org.apache.tools.zip	4	0	16
-1.5.4	org.apache.tools.tar	2	0	6
-1.5.4	org.apache.tools.bzip2	4	0	9
-1.5.4	org.apache.tools.mail	2	0	3
-1.6.0	org.apache.tools.ant	275	31	219
-1.6.0	org.apache.tools.ant.filters	2	13	85
-1.6.0	org.apache.tools.ant.filters.util	5	12	0
-1.6.0	org.apache.tools.ant.helper	3	14	51
-1.6.0	org.apache.tools.ant.input	4	2	7
-1.6.0	org.apache.tools.ant.listener	0	10	0
-1.6.0	org.apache.tools.ant.loader	1	5	0
-1.6.0	org.apache.tools.ant.taskdefs	25	112	316
-1.6.0	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.6.0	org.apache.tools.ant.taskdefs.condition	16	8	30
-1.6.0	org.apache.tools.ant.taskdefs.cvslib	0	15	13
-1.6.0	org.apache.tools.ant.taskdefs.email	2	10	13
-1.6.0	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.6.0	org.apache.tools.ant.types	150	67	126
-1.6.0	org.apache.tools.ant.types.resolver	0	3	2
-1.6.0	org.apache.tools.ant.types.selectors	6	20	91
-1.6.0	org.apache.tools.ant.types.selectors.modifiedselector	5	8	14
-1.6.0	org.apache.tools.ant.util	89	14	26
-1.6.0	org.apache.tools.ant.util.facade	4	2	1
-1.6.0	org.apache.tools.ant.util.regexp	7	2	5
-1.6.0	org.apache.tools.bzip2	4	0	9
-1.6.0	org.apache.tools.mail	2	0	3
-1.6.0	org.apache.tools.tar	2	0	6
-1.6.0	org.apache.tools.zip	6	0	22
-1.6.1	org.apache.tools.ant	277	31	215
-1.6.1	org.apache.tools.ant.filters	2	13	85
-1.6.1	org.apache.tools.ant.filters.util	5	12	0
-1.6.1	org.apache.tools.ant.helper	3	14	51
-1.6.1	org.apache.tools.ant.input	4	2	7
-1.6.1	org.apache.tools.ant.listener	0	10	0
-1.6.1	org.apache.tools.ant.loader	1	5	0
-1.6.1	org.apache.tools.ant.taskdefs	28	112	319
-1.6.1	org.apache.tools.ant.taskdefs.compilers	1	15	18
-1.6.1	org.apache.tools.ant.taskdefs.condition	16	8	30
-1.6.1	org.apache.tools.ant.taskdefs.cvslib	0	12	14
-1.6.1	org.apache.tools.ant.taskdefs.email	2	10	13
-1.6.1	org.apache.tools.ant.taskdefs.rmic	1	13	10
-1.6.1	org.apache.tools.ant.types	149	67	126
-1.6.1	org.apache.tools.ant.types.resolver	0	3	2
-1.6.1	org.apache.tools.ant.types.selectors	6	20	91
-1.6.1	org.apache.tools.ant.types.selectors.modifiedselector	5	8	14
-1.6.1	org.apache.tools.ant.util	89	14	26
-1.6.1	org.apache.tools.ant.util.facade	4	2	1
-1.6.1	org.apache.tools.ant.util.regexp	7	2	5
-1.6.1	org.apache.tools.bzip2	4	0	9
-1.6.1	org.apache.tools.mail	2	0	3
-1.6.1	org.apache.tools.tar	2	0	6
-1.6.1	org.apache.tools.zip	6	0	22
-1.6.2	org.apache.tools.ant	280	29	232
-1.6.2	org.apache.tools.ant.filters	2	13	74
-1.6.2	org.apache.tools.ant.filters.util	6	11	0
-1.6.2	org.apache.tools.ant.helper	3	13	51
-1.6.2	org.apache.tools.ant.input	4	2	7
-1.6.2	org.apache.tools.ant.listener	0	9	0
-1.6.2	org.apache.tools.ant.loader	1	5	0
-1.6.2	org.apache.tools.ant.taskdefs	29	121	337
-1.6.2	org.apache.tools.ant.taskdefs.compilers	1	14	18
-1.6.2	org.apache.tools.ant.taskdefs.condition	18	8	30
-1.6.2	org.apache.tools.ant.taskdefs.cvslib	0	10	14
-1.6.2	org.apache.tools.ant.taskdefs.email	2	9	13
-1.6.2	org.apache.tools.ant.taskdefs.rmic	1	12	10
-1.6.2	org.apache.tools.ant.types	143	70	126
-1.6.2	org.apache.tools.ant.types.resolver	0	3	2
-1.6.2	org.apache.tools.ant.types.selectors	7	18	81
-1.6.2	org.apache.tools.ant.types.selectors.modifiedselector	5	6	14
-1.6.2	org.apache.tools.ant.util	93	16	37
-1.6.2	org.apache.tools.ant.util.facade	4	2	1
-1.6.2	org.apache.tools.ant.util.regexp	7	2	5
-1.6.2	org.apache.tools.bzip2	4	0	9
-1.6.2	org.apache.tools.mail	2	0	3
-1.6.2	org.apache.tools.tar	2	0	6
-1.6.2	org.apache.tools.zip	6	0	22
-1.6.3	org.apache.tools.ant	287	29	235
-1.6.3	org.apache.tools.ant.filters	2	13	74
-1.6.3	org.apache.tools.ant.filters.util	7	11	0
-1.6.3	org.apache.tools.ant.helper	3	14	52
-1.6.3	org.apache.tools.ant.input	4	2	7
-1.6.3	org.apache.tools.ant.listener	0	9	0
-1.6.3	org.apache.tools.ant.loader	1	5	0
-1.6.3	org.apache.tools.ant.taskdefs	28	124	373
-1.6.3	org.apache.tools.ant.taskdefs.compilers	1	16	18
-1.6.3	org.apache.tools.ant.taskdefs.condition	18	10	31
-1.6.3	org.apache.tools.ant.taskdefs.cvslib	0	12	14
-1.6.3	org.apache.tools.ant.taskdefs.email	2	9	13
-1.6.3	org.apache.tools.ant.taskdefs.rmic	1	14	10
-1.6.3	org.apache.tools.ant.types	151	70	126
-1.6.3	org.apache.tools.ant.types.mappers	0	7	0
-1.6.3	org.apache.tools.ant.types.resolver	0	3	2
-1.6.3	org.apache.tools.ant.types.selectors	8	18	101
-1.6.3	org.apache.tools.ant.types.selectors.modifiedselector	6	6	14
-1.6.3	org.apache.tools.ant.util	98	16	40
-1.6.3	org.apache.tools.ant.util.facade	4	2	1
-1.6.3	org.apache.tools.ant.util.regexp	7	2	5
-1.6.3	org.apache.tools.bzip2	4	0	9
-1.6.3	org.apache.tools.mail	2	0	3
-1.6.3	org.apache.tools.tar	2	0	6
-1.6.3	org.apache.tools.zip	6	0	24
-1.6.4	org.apache.tools.ant	287	29	235
-1.6.4	org.apache.tools.ant.filters	2	13	74
-1.6.4	org.apache.tools.ant.filters.util	7	11	0
-1.6.4	org.apache.tools.ant.helper	3	14	52
-1.6.4	org.apache.tools.ant.input	4	2	7
-1.6.4	org.apache.tools.ant.listener	0	9	0
-1.6.4	org.apache.tools.ant.loader	1	5	0
-1.6.4	org.apache.tools.ant.taskdefs	28	124	373
-1.6.4	org.apache.tools.ant.taskdefs.compilers	1	16	18
-1.6.4	org.apache.tools.ant.taskdefs.condition	18	10	31
-1.6.4	org.apache.tools.ant.taskdefs.cvslib	0	12	14
-1.6.4	org.apache.tools.ant.taskdefs.email	2	9	13
-1.6.4	org.apache.tools.ant.taskdefs.rmic	1	14	10
-1.6.4	org.apache.tools.ant.types	151	70	126
-1.6.4	org.apache.tools.ant.types.mappers	0	7	0
-1.6.4	org.apache.tools.ant.types.resolver	0	3	2
-1.6.4	org.apache.tools.ant.types.selectors	8	18	101
-1.6.4	org.apache.tools.ant.types.selectors.modifiedselector	6	6	14
-1.6.4	org.apache.tools.ant.util	98	16	40
-1.6.4	org.apache.tools.ant.util.facade	4	2	1
-1.6.4	org.apache.tools.ant.util.regexp	7	2	5
-1.6.4	org.apache.tools.bzip2	4	0	9
-1.6.4	org.apache.tools.mail	2	0	3
-1.6.4	org.apache.tools.tar	2	0	6
-1.6.4	org.apache.tools.zip	6	0	24
-1.6.5	org.apache.tools.ant	287	29	235
-1.6.5	org.apache.tools.ant.filters	2	13	74
-1.6.5	org.apache.tools.ant.filters.util	7	11	0
-1.6.5	org.apache.tools.ant.helper	3	14	52
-1.6.5	org.apache.tools.ant.input	4	2	7
-1.6.5	org.apache.tools.ant.listener	0	9	0
-1.6.5	org.apache.tools.ant.loader	1	5	0
-1.6.5	org.apache.tools.ant.taskdefs	28	124	373
-1.6.5	org.apache.tools.ant.taskdefs.compilers	1	16	18
-1.6.5	org.apache.tools.ant.taskdefs.condition	18	10	31
-1.6.5	org.apache.tools.ant.taskdefs.cvslib	0	12	14
-1.6.5	org.apache.tools.ant.taskdefs.email	2	9	13
-1.6.5	org.apache.tools.ant.taskdefs.rmic	1	14	10
-1.6.5	org.apache.tools.ant.types	151	70	126
-1.6.5	org.apache.tools.ant.types.mappers	0	7	0
-1.6.5	org.apache.tools.ant.types.resolver	0	3	2
-1.6.5	org.apache.tools.ant.types.selectors	8	18	101
-1.6.5	org.apache.tools.ant.types.selectors.modifiedselector	6	6	14
-1.6.5	org.apache.tools.ant.util	98	16	40
-1.6.5	org.apache.tools.ant.util.facade	4	2	1
-1.6.5	org.apache.tools.ant.util.regexp	7	2	5
-1.6.5	org.apache.tools.bzip2	4	0	9
-1.6.5	org.apache.tools.mail	2	0	3
-1.6.5	org.apache.tools.tar	2	0	6
-1.6.5	org.apache.tools.zip	6	0	24
-1.7.0	org.apache.tools.ant	367	36	246
-1.7.0	org.apache.tools.ant.dispatch	2	3	2
-1.7.0	org.apache.tools.ant.filters	6	17	100
-1.7.0	org.apache.tools.ant.filters.util	6	11	0
-1.7.0	org.apache.tools.ant.helper	3	14	52
-1.7.0	org.apache.tools.ant.input	6	3	9
-1.7.0	org.apache.tools.ant.listener	0	11	0
-1.7.0	org.apache.tools.ant.loader	0	1	0
-1.7.0	org.apache.tools.ant.taskdefs	32	166	439
-1.7.0	org.apache.tools.ant.taskdefs.compilers	1	21	21
-1.7.0	org.apache.tools.ant.taskdefs.condition	26	31	44
-1.7.0	org.apache.tools.ant.taskdefs.cvslib	0	11	14
-1.7.0	org.apache.tools.ant.taskdefs.email	2	13	14
-1.7.0	org.apache.tools.ant.taskdefs.rmic	1	18	14
-1.7.0	org.apache.tools.ant.types	248	81	185
-1.7.0	org.apache.tools.ant.types.mappers	0	7	0
-1.7.0	org.apache.tools.ant.types.resources	52	31	60
-1.7.0	org.apache.tools.ant.types.resources.comparators	7	7	9
-1.7.0	org.apache.tools.ant.types.resources.selectors	12	17	19
-1.7.0	org.apache.tools.ant.types.selectors	12	22	103
-1.7.0	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.7.0	org.apache.tools.ant.types.spi	1	3	1
-1.7.0	org.apache.tools.ant.util	159	33	70
-1.7.0	org.apache.tools.ant.util.facade	4	2	1
-1.7.0	org.apache.tools.ant.util.regexp	8	4	5
-1.7.0	org.apache.tools.bzip2	5	0	8
-1.7.0	org.apache.tools.mail	2	0	3
-1.7.0	org.apache.tools.tar	4	0	6
-1.7.0	org.apache.tools.zip	9	0	29
-1.7.1	org.apache.tools.ant	377	36	252
-1.7.1	org.apache.tools.ant.dispatch	2	3	2
-1.7.1	org.apache.tools.ant.filters	6	17	100
-1.7.1	org.apache.tools.ant.filters.util	6	11	0
-1.7.1	org.apache.tools.ant.helper	3	15	53
-1.7.1	org.apache.tools.ant.input	6	4	11
-1.7.1	org.apache.tools.ant.listener	0	14	5
-1.7.1	org.apache.tools.ant.loader	0	1	0
-1.7.1	org.apache.tools.ant.taskdefs	32	166	444
-1.7.1	org.apache.tools.ant.taskdefs.compilers	1	21	21
-1.7.1	org.apache.tools.ant.taskdefs.condition	26	33	45
-1.7.1	org.apache.tools.ant.taskdefs.cvslib	0	11	14
-1.7.1	org.apache.tools.ant.taskdefs.email	2	13	14
-1.7.1	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.7.1	org.apache.tools.ant.types	252	81	190
-1.7.1	org.apache.tools.ant.types.mappers	0	7	0
-1.7.1	org.apache.tools.ant.types.resources	56	31	62
-1.7.1	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.7.1	org.apache.tools.ant.types.resources.selectors	12	17	19
-1.7.1	org.apache.tools.ant.types.selectors	12	22	103
-1.7.1	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.7.1	org.apache.tools.ant.types.spi	1	3	1
-1.7.1	org.apache.tools.ant.util	170	30	72
-1.7.1	org.apache.tools.ant.util.facade	4	2	1
-1.7.1	org.apache.tools.ant.util.regexp	8	4	4
-1.7.1	org.apache.tools.bzip2	5	0	11
-1.7.1	org.apache.tools.mail	2	0	3
-1.7.1	org.apache.tools.tar	4	0	6
-1.7.1	org.apache.tools.zip	9	0	29
-1.8.0	org.apache.tools.ant	416	47	302
-1.8.0	org.apache.tools.ant.dispatch	2	3	2
-1.8.0	org.apache.tools.ant.filters	7	19	108
-1.8.0	org.apache.tools.ant.filters.util	7	11	2
-1.8.0	org.apache.tools.ant.helper	2	20	53
-1.8.0	org.apache.tools.ant.input	6	4	11
-1.8.0	org.apache.tools.ant.listener	0	16	5
-1.8.0	org.apache.tools.ant.loader	0	1	0
-1.8.0	org.apache.tools.ant.property	9	6	8
-1.8.0	org.apache.tools.ant.taskdefs	37	184	481
-1.8.0	org.apache.tools.ant.taskdefs.compilers	1	22	20
-1.8.0	org.apache.tools.ant.taskdefs.condition	26	36	51
-1.8.0	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.8.0	org.apache.tools.ant.taskdefs.email	2	16	14
-1.8.0	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.8.0	org.apache.tools.ant.types	292	86	191
-1.8.0	org.apache.tools.ant.types.mappers	0	7	0
-1.8.0	org.apache.tools.ant.types.resources	69	45	76
-1.8.0	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.8.0	org.apache.tools.ant.types.resources.selectors	22	19	19
-1.8.0	org.apache.tools.ant.types.selectors	15	25	115
-1.8.0	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.8.0	org.apache.tools.ant.types.spi	1	3	1
-1.8.0	org.apache.tools.ant.util	193	31	95
-1.8.0	org.apache.tools.ant.util.facade	4	4	1
-1.8.0	org.apache.tools.ant.util.regexp	10	3	11
-1.8.0	org.apache.tools.bzip2	5	0	8
-1.8.0	org.apache.tools.mail	2	0	3
-1.8.0	org.apache.tools.tar	4	0	6
-1.8.0	org.apache.tools.zip	11	0	69
-1.8.1	org.apache.tools.ant	418	44	302
-1.8.1	org.apache.tools.ant.dispatch	2	3	2
-1.8.1	org.apache.tools.ant.filters	7	19	108
-1.8.1	org.apache.tools.ant.filters.util	7	11	2
-1.8.1	org.apache.tools.ant.helper	2	20	53
-1.8.1	org.apache.tools.ant.input	6	4	11
-1.8.1	org.apache.tools.ant.listener	0	16	6
-1.8.1	org.apache.tools.ant.loader	0	1	0
-1.8.1	org.apache.tools.ant.property	9	6	8
-1.8.1	org.apache.tools.ant.taskdefs	36	187	481
-1.8.1	org.apache.tools.ant.taskdefs.compilers	1	22	20
-1.8.1	org.apache.tools.ant.taskdefs.condition	25	36	51
-1.8.1	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.8.1	org.apache.tools.ant.taskdefs.email	2	15	14
-1.8.1	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.8.1	org.apache.tools.ant.types	291	87	191
-1.8.1	org.apache.tools.ant.types.mappers	0	7	0
-1.8.1	org.apache.tools.ant.types.resources	69	46	71
-1.8.1	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.8.1	org.apache.tools.ant.types.resources.selectors	22	19	19
-1.8.1	org.apache.tools.ant.types.selectors	15	25	115
-1.8.1	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.8.1	org.apache.tools.ant.types.spi	1	3	1
-1.8.1	org.apache.tools.ant.util	192	31	95
-1.8.1	org.apache.tools.ant.util.facade	4	4	1
-1.8.1	org.apache.tools.ant.util.regexp	10	3	11
-1.8.1	org.apache.tools.bzip2	5	0	8
-1.8.1	org.apache.tools.mail	2	0	3
-1.8.1	org.apache.tools.tar	4	0	6
-1.8.1	org.apache.tools.zip	11	0	78
-1.8.2	org.apache.tools.ant	547	46	305
-1.8.2	org.apache.tools.ant.dispatch	3	3	2
-1.8.2	org.apache.tools.ant.filters	8	20	108
-1.8.2	org.apache.tools.ant.filters.util	7	11	2
-1.8.2	org.apache.tools.ant.helper	1	21	53
-1.8.2	org.apache.tools.ant.input	6	4	11
-1.8.2	org.apache.tools.ant.listener	0	16	6
-1.8.2	org.apache.tools.ant.loader	1	3	0
-1.8.2	org.apache.tools.ant.property	10	6	8
-1.8.2	org.apache.tools.ant.taskdefs	93	191	482
-1.8.2	org.apache.tools.ant.taskdefs.compilers	1	22	21
-1.8.2	org.apache.tools.ant.taskdefs.condition	33	37	51
-1.8.2	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.8.2	org.apache.tools.ant.taskdefs.email	3	15	14
-1.8.2	org.apache.tools.ant.taskdefs.optional	9	67	37
-1.8.2	org.apache.tools.ant.taskdefs.optional.ccm	0	12	6
-1.8.2	org.apache.tools.ant.taskdefs.optional.clearcase	0	12	13
-1.8.2	org.apache.tools.ant.taskdefs.optional.depend	0	14	14
-1.8.2	org.apache.tools.ant.taskdefs.optional.depend.constantpool	1	0	48
-1.8.2	org.apache.tools.ant.taskdefs.optional.ejb	0	22	85
-1.8.2	org.apache.tools.ant.taskdefs.optional.extension	3	12	27
-1.8.2	org.apache.tools.ant.taskdefs.optional.extension.resolvers	1	6	0
-1.8.2	org.apache.tools.ant.taskdefs.optional.i18n	0	8	0
-1.8.2	org.apache.tools.ant.taskdefs.optional.j2ee	0	7	15
-1.8.2	org.apache.tools.ant.taskdefs.optional.javacc	0	14	2
-1.8.2	org.apache.tools.ant.taskdefs.optional.javah	1	14	7
-1.8.2	org.apache.tools.ant.taskdefs.optional.jlink	0	6	3
-1.8.2	org.apache.tools.ant.taskdefs.optional.jsp	4	15	5
-1.8.2	org.apache.tools.ant.taskdefs.optional.jsp.compilers	1	15	4
-1.8.2	org.apache.tools.ant.taskdefs.optional.native2ascii	1	11	6
-1.8.2	org.apache.tools.ant.taskdefs.optional.net	0	3	5
-1.8.2	org.apache.tools.ant.taskdefs.optional.pvcs	0	12	1
-1.8.2	org.apache.tools.ant.taskdefs.optional.script	0	13	6
-1.8.2	org.apache.tools.ant.taskdefs.optional.sos	0	11	5
-1.8.2	org.apache.tools.ant.taskdefs.optional.testing	0	12	8
-1.8.2	org.apache.tools.ant.taskdefs.optional.unix	0	17	2
-1.8.2	org.apache.tools.ant.taskdefs.optional.vss	0	12	19
-1.8.2	org.apache.tools.ant.taskdefs.optional.windows	0	7	0
-1.8.2	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.8.2	org.apache.tools.ant.types	399	87	191
-1.8.2	org.apache.tools.ant.types.mappers	0	7	0
-1.8.2	org.apache.tools.ant.types.optional	0	12	2
-1.8.2	org.apache.tools.ant.types.optional.depend	0	9	3
-1.8.2	org.apache.tools.ant.types.resources	71	46	77
-1.8.2	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.8.2	org.apache.tools.ant.types.resources.selectors	22	20	19
-1.8.2	org.apache.tools.ant.types.selectors	16	26	115
-1.8.2	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.8.2	org.apache.tools.ant.types.spi	1	3	1
-1.8.2	org.apache.tools.ant.util	242	32	98
-1.8.2	org.apache.tools.ant.util.depend	4	3	1
-1.8.2	org.apache.tools.ant.util.facade	6	4	1
-1.8.2	org.apache.tools.ant.util.java15	1	1	0
-1.8.2	org.apache.tools.ant.util.optional	0	6	0
-1.8.2	org.apache.tools.ant.util.regexp	12	3	11
-1.8.2	org.apache.tools.bzip2	5	0	8
-1.8.2	org.apache.tools.mail	2	0	3
-1.8.2	org.apache.tools.tar	4	0	6
-1.8.2	org.apache.tools.zip	11	0	78
-1.8.3	org.apache.tools.ant	547	49	305
-1.8.3	org.apache.tools.ant.dispatch	3	3	2
-1.8.3	org.apache.tools.ant.filters	8	25	110
-1.8.3	org.apache.tools.ant.filters.util	7	11	2
-1.8.3	org.apache.tools.ant.helper	1	21	53
-1.8.3	org.apache.tools.ant.input	6	5	11
-1.8.3	org.apache.tools.ant.listener	0	16	6
-1.8.3	org.apache.tools.ant.loader	1	3	0
-1.8.3	org.apache.tools.ant.property	12	6	8
-1.8.3	org.apache.tools.ant.taskdefs	94	192	482
-1.8.3	org.apache.tools.ant.taskdefs.compilers	1	22	21
-1.8.3	org.apache.tools.ant.taskdefs.condition	35	37	51
-1.8.3	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.8.3	org.apache.tools.ant.taskdefs.email	3	15	14
-1.8.3	org.apache.tools.ant.taskdefs.optional	9	67	37
-1.8.3	org.apache.tools.ant.taskdefs.optional.ccm	0	12	6
-1.8.3	org.apache.tools.ant.taskdefs.optional.clearcase	0	12	13
-1.8.3	org.apache.tools.ant.taskdefs.optional.depend	0	14	14
-1.8.3	org.apache.tools.ant.taskdefs.optional.depend.constantpool	1	0	48
-1.8.3	org.apache.tools.ant.taskdefs.optional.ejb	0	22	85
-1.8.3	org.apache.tools.ant.taskdefs.optional.extension	3	12	27
-1.8.3	org.apache.tools.ant.taskdefs.optional.extension.resolvers	1	6	0
-1.8.3	org.apache.tools.ant.taskdefs.optional.i18n	0	8	0
-1.8.3	org.apache.tools.ant.taskdefs.optional.j2ee	0	7	15
-1.8.3	org.apache.tools.ant.taskdefs.optional.javacc	0	14	2
-1.8.3	org.apache.tools.ant.taskdefs.optional.javah	1	14	7
-1.8.3	org.apache.tools.ant.taskdefs.optional.jlink	0	6	3
-1.8.3	org.apache.tools.ant.taskdefs.optional.jsp	4	15	5
-1.8.3	org.apache.tools.ant.taskdefs.optional.jsp.compilers	1	15	4
-1.8.3	org.apache.tools.ant.taskdefs.optional.native2ascii	1	11	6
-1.8.3	org.apache.tools.ant.taskdefs.optional.net	0	3	5
-1.8.3	org.apache.tools.ant.taskdefs.optional.pvcs	0	12	1
-1.8.3	org.apache.tools.ant.taskdefs.optional.script	0	13	6
-1.8.3	org.apache.tools.ant.taskdefs.optional.sos	0	11	5
-1.8.3	org.apache.tools.ant.taskdefs.optional.testing	0	12	8
-1.8.3	org.apache.tools.ant.taskdefs.optional.unix	0	17	2
-1.8.3	org.apache.tools.ant.taskdefs.optional.vss	0	12	19
-1.8.3	org.apache.tools.ant.taskdefs.optional.windows	0	7	0
-1.8.3	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.8.3	org.apache.tools.ant.types	400	88	192
-1.8.3	org.apache.tools.ant.types.mappers	0	7	0
-1.8.3	org.apache.tools.ant.types.optional	0	12	2
-1.8.3	org.apache.tools.ant.types.optional.depend	0	9	3
-1.8.3	org.apache.tools.ant.types.resources	71	46	77
-1.8.3	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.8.3	org.apache.tools.ant.types.resources.selectors	22	20	19
-1.8.3	org.apache.tools.ant.types.selectors	16	26	115
-1.8.3	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.8.3	org.apache.tools.ant.types.spi	1	3	1
-1.8.3	org.apache.tools.ant.util	245	32	100
-1.8.3	org.apache.tools.ant.util.depend	4	3	1
-1.8.3	org.apache.tools.ant.util.facade	6	4	1
-1.8.3	org.apache.tools.ant.util.java15	1	1	0
-1.8.3	org.apache.tools.ant.util.optional	0	6	0
-1.8.3	org.apache.tools.ant.util.regexp	12	3	11
-1.8.3	org.apache.tools.bzip2	5	0	8
-1.8.3	org.apache.tools.mail	2	0	3
-1.8.3	org.apache.tools.tar	4	0	6
-1.8.3	org.apache.tools.zip	11	0	78
-1.8.4	org.apache.tools.ant	547	49	305
-1.8.4	org.apache.tools.ant.dispatch	3	3	2
-1.8.4	org.apache.tools.ant.filters	8	25	110
-1.8.4	org.apache.tools.ant.filters.util	7	11	2
-1.8.4	org.apache.tools.ant.helper	1	21	53
-1.8.4	org.apache.tools.ant.input	6	5	11
-1.8.4	org.apache.tools.ant.listener	0	16	6
-1.8.4	org.apache.tools.ant.loader	1	3	0
-1.8.4	org.apache.tools.ant.property	12	6	8
-1.8.4	org.apache.tools.ant.taskdefs	94	192	482
-1.8.4	org.apache.tools.ant.taskdefs.compilers	1	22	21
-1.8.4	org.apache.tools.ant.taskdefs.condition	35	37	51
-1.8.4	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.8.4	org.apache.tools.ant.taskdefs.email	3	15	14
-1.8.4	org.apache.tools.ant.taskdefs.optional	9	67	37
-1.8.4	org.apache.tools.ant.taskdefs.optional.ccm	0	12	6
-1.8.4	org.apache.tools.ant.taskdefs.optional.clearcase	0	12	13
-1.8.4	org.apache.tools.ant.taskdefs.optional.depend	0	14	14
-1.8.4	org.apache.tools.ant.taskdefs.optional.depend.constantpool	1	0	48
-1.8.4	org.apache.tools.ant.taskdefs.optional.ejb	0	22	85
-1.8.4	org.apache.tools.ant.taskdefs.optional.extension	3	12	27
-1.8.4	org.apache.tools.ant.taskdefs.optional.extension.resolvers	1	6	0
-1.8.4	org.apache.tools.ant.taskdefs.optional.i18n	0	8	0
-1.8.4	org.apache.tools.ant.taskdefs.optional.j2ee	0	7	15
-1.8.4	org.apache.tools.ant.taskdefs.optional.javacc	0	14	2
-1.8.4	org.apache.tools.ant.taskdefs.optional.javah	1	14	7
-1.8.4	org.apache.tools.ant.taskdefs.optional.jlink	0	6	3
-1.8.4	org.apache.tools.ant.taskdefs.optional.jsp	4	15	5
-1.8.4	org.apache.tools.ant.taskdefs.optional.jsp.compilers	1	15	4
-1.8.4	org.apache.tools.ant.taskdefs.optional.native2ascii	1	11	6
-1.8.4	org.apache.tools.ant.taskdefs.optional.net	0	3	5
-1.8.4	org.apache.tools.ant.taskdefs.optional.pvcs	0	12	1
-1.8.4	org.apache.tools.ant.taskdefs.optional.script	0	13	6
-1.8.4	org.apache.tools.ant.taskdefs.optional.sos	0	11	5
-1.8.4	org.apache.tools.ant.taskdefs.optional.testing	0	12	8
-1.8.4	org.apache.tools.ant.taskdefs.optional.unix	0	17	2
-1.8.4	org.apache.tools.ant.taskdefs.optional.vss	0	12	19
-1.8.4	org.apache.tools.ant.taskdefs.optional.windows	0	7	0
-1.8.4	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.8.4	org.apache.tools.ant.types	400	88	192
-1.8.4	org.apache.tools.ant.types.mappers	0	7	0
-1.8.4	org.apache.tools.ant.types.optional	0	12	2
-1.8.4	org.apache.tools.ant.types.optional.depend	0	9	3
-1.8.4	org.apache.tools.ant.types.resources	71	46	77
-1.8.4	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.8.4	org.apache.tools.ant.types.resources.selectors	22	20	19
-1.8.4	org.apache.tools.ant.types.selectors	16	26	115
-1.8.4	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.8.4	org.apache.tools.ant.types.spi	1	3	1
-1.8.4	org.apache.tools.ant.util	245	32	100
-1.8.4	org.apache.tools.ant.util.depend	4	3	1
-1.8.4	org.apache.tools.ant.util.facade	6	4	1
-1.8.4	org.apache.tools.ant.util.java15	1	1	0
-1.8.4	org.apache.tools.ant.util.optional	0	6	0
-1.8.4	org.apache.tools.ant.util.regexp	12	3	11
-1.8.4	org.apache.tools.bzip2	5	0	11
-1.8.4	org.apache.tools.mail	2	0	3
-1.8.4	org.apache.tools.tar	4	0	6
-1.8.4	org.apache.tools.zip	11	0	78
-1.9.0	org.apache.tools.ant	552	58	332
-1.9.0	org.apache.tools.ant.dispatch	3	3	2
-1.9.0	org.apache.tools.ant.filters	8	25	110
-1.9.0	org.apache.tools.ant.filters.util	7	11	2
-1.9.0	org.apache.tools.ant.helper	3	21	53
-1.9.0	org.apache.tools.ant.input	6	5	11
-1.9.0	org.apache.tools.ant.listener	1	16	6
-1.9.0	org.apache.tools.ant.loader	1	3	0
-1.9.0	org.apache.tools.ant.property	13	6	9
-1.9.0	org.apache.tools.ant.taskdefs	94	195	447
-1.9.0	org.apache.tools.ant.taskdefs.compilers	2	22	21
-1.9.0	org.apache.tools.ant.taskdefs.condition	39	37	51
-1.9.0	org.apache.tools.ant.taskdefs.cvslib	0	13	14
-1.9.0	org.apache.tools.ant.taskdefs.email	3	15	15
-1.9.0	org.apache.tools.ant.taskdefs.launcher	2	5	22
-1.9.0	org.apache.tools.ant.taskdefs.optional	9	67	37
-1.9.0	org.apache.tools.ant.taskdefs.optional.ccm	0	12	6
-1.9.0	org.apache.tools.ant.taskdefs.optional.clearcase	0	12	13
-1.9.0	org.apache.tools.ant.taskdefs.optional.depend	0	14	14
-1.9.0	org.apache.tools.ant.taskdefs.optional.depend.constantpool	1	0	63
-1.9.0	org.apache.tools.ant.taskdefs.optional.ejb	0	22	85
-1.9.0	org.apache.tools.ant.taskdefs.optional.extension	3	12	27
-1.9.0	org.apache.tools.ant.taskdefs.optional.extension.resolvers	1	6	0
-1.9.0	org.apache.tools.ant.taskdefs.optional.i18n	0	8	0
-1.9.0	org.apache.tools.ant.taskdefs.optional.j2ee	0	7	15
-1.9.0	org.apache.tools.ant.taskdefs.optional.javacc	0	14	2
-1.9.0	org.apache.tools.ant.taskdefs.optional.javah	1	14	7
-1.9.0	org.apache.tools.ant.taskdefs.optional.jlink	0	6	3
-1.9.0	org.apache.tools.ant.taskdefs.optional.jsp	4	15	5
-1.9.0	org.apache.tools.ant.taskdefs.optional.jsp.compilers	1	15	4
-1.9.0	org.apache.tools.ant.taskdefs.optional.native2ascii	1	11	6
-1.9.0	org.apache.tools.ant.taskdefs.optional.net	0	3	5
-1.9.0	org.apache.tools.ant.taskdefs.optional.pvcs	0	12	1
-1.9.0	org.apache.tools.ant.taskdefs.optional.script	0	13	6
-1.9.0	org.apache.tools.ant.taskdefs.optional.sos	0	11	5
-1.9.0	org.apache.tools.ant.taskdefs.optional.testing	0	12	8
-1.9.0	org.apache.tools.ant.taskdefs.optional.unix	0	17	2
-1.9.0	org.apache.tools.ant.taskdefs.optional.vss	0	12	19
-1.9.0	org.apache.tools.ant.taskdefs.optional.windows	0	7	0
-1.9.0	org.apache.tools.ant.taskdefs.rmic	1	19	14
-1.9.0	org.apache.tools.ant.types	408	89	199
-1.9.0	org.apache.tools.ant.types.mappers	0	7	0
-1.9.0	org.apache.tools.ant.types.optional	0	12	2
-1.9.0	org.apache.tools.ant.types.optional.depend	0	9	3
-1.9.0	org.apache.tools.ant.types.resources	73	46	85
-1.9.0	org.apache.tools.ant.types.resources.comparators	4	7	9
-1.9.0	org.apache.tools.ant.types.resources.selectors	22	20	19
-1.9.0	org.apache.tools.ant.types.selectors	16	26	115
-1.9.0	org.apache.tools.ant.types.selectors.modifiedselector	6	15	17
-1.9.0	org.apache.tools.ant.types.spi	1	3	1
-1.9.0	org.apache.tools.ant.util	247	33	103
-1.9.0	org.apache.tools.ant.util.depend	4	3	1
-1.9.0	org.apache.tools.ant.util.facade	6	4	1
-1.9.0	org.apache.tools.ant.util.java15	1	1	0
-1.9.0	org.apache.tools.ant.util.optional	0	6	0
-1.9.0	org.apache.tools.ant.util.regexp	12	3	11
-1.9.0	org.apache.tools.bzip2	5	0	11
-1.9.0	org.apache.tools.mail	2	0	3
-1.9.0	org.apache.tools.tar	4	2	11
-1.9.0	org.apache.tools.zip	16	0	123
+version	package	cbo	aff	eff	lcom	mf	cs
+1.1.0	com.oreilly.servlet	0	0	0	-0.0	0.0	1
+1.1.0	org.apache.tools.ant.taskdefs	2	0	15	0.9822775263951734	0.376	-1250
+1.1.0	org.apache.tools.ant	0	45	0	0.9123112659698026	0.6651982378854625	-615
+1.1.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.2.0	org.apache.tools.ant	1	97	2	0.913968547641073	0.5391304347826087	-771
+1.2.0	org.apache.tools.ant.taskdefs	4	12	28	0.9816338524831032	0.4288164665523156	-3195
+1.2.0	org.apache.tools.ant.taskdefs.optional	3	0	10	1.0	0.0	-3
+1.2.0	org.apache.tools.ant.taskdefs.optional.ejb	3	0	8	0.7142857142857143	0.5853658536585366	3
+1.2.0	org.apache.tools.ant.taskdefs.optional.javacc	3	0	11	1.0	0.0	-1
+1.2.0	org.apache.tools.ant.taskdefs.optional.jlink	3	0	6	0.6666666666666666	0.5714285714285714	0
+1.2.0	org.apache.tools.ant.taskdefs.optional.jsp	3	0	8	NaN	0.0	0
+1.2.0	org.apache.tools.ant.taskdefs.optional.metamata	3	0	11	NaN	0.0	0
+1.2.0	org.apache.tools.ant.taskdefs.optional.perforce	2	0	2	NaN	0.0	0
+1.2.0	org.apache.tools.ant.taskdefs.optional.vss	3	0	10	0.5	0.1111111111111111	1
+1.2.0	org.apache.tools.ant.types	1	45	5	0.8406593406593407	0.327683615819209	-43
+1.2.0	org.apache.tools.mail	0	1	0	-0.0	0.8	1
+1.2.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.3.0	org.apache.tools.ant	2	103	3	0.9196428571428571	0.5526315789473685	-860
+1.3.0	org.apache.tools.ant.taskdefs	6	6	40	0.9822954822954822	0.43478260869565216	-3861
+1.3.0	org.apache.tools.ant.taskdefs.compilers	3	1	13	0.7619047619047619	0.3125	-1
+1.3.0	org.apache.tools.ant.types	2	48	8	0.8801169590643275	0.36936936936936937	-103
+1.3.0	org.apache.tools.ant.util	2	10	4	0.8928571428571429	0.3	-16
+1.3.0	org.apache.tools.ant.util.regexp	1	1	1	0.75	0.5	0
+1.3.0	org.apache.tools.mail	0	1	0	0.6666666666666666	0.8	1
+1.3.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.4.0	org.apache.tools.ant	2	143	8	0.9349726775956284	0.5112781954887218	-1434
+1.4.0	org.apache.tools.ant.listener	1	0	5	NaN	0.0	0
+1.4.0	org.apache.tools.ant.taskdefs	9	18	55	0.9865403788634097	0.4223463687150838	-6729
+1.4.0	org.apache.tools.ant.taskdefs.compilers	3	1	14	0.8363636363636363	0.34951456310679613	-19
+1.4.0	org.apache.tools.ant.taskdefs.condition	2	3	6	0.75	0.6923076923076923	-10
+1.4.0	org.apache.tools.ant.taskdefs.rmic	4	1	12	0.7619047619047619	0.3508771929824561	-3
+1.4.0	org.apache.tools.ant.types	2	73	9	0.9166666666666666	0.3412969283276451	-218
+1.4.0	org.apache.tools.ant.util	3	16	6	0.9166666666666666	0.24489795918367346	-24
+1.4.0	org.apache.tools.ant.util.regexp	1	1	1	0.75	0.5	0
+1.4.0	org.apache.tools.mail	0	1	0	0.6666666666666666	0.8	1
+1.4.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.4.0	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.4.0	org.apache.tools.ant.taskdefs.optional	1	0	1	NaN	0.0	0
+1.4.1	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.4.1	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.4.1	org.apache.tools.ant.util.regexp	1	1	1	0.75	0.5	0
+1.4.1	org.apache.tools.ant.util	3	17	6	0.9027777777777778	0.2692307692307692	-22
+1.4.1	org.apache.tools.ant	2	143	8	0.9349726775956284	0.5112781954887218	-1434
+1.4.1	org.apache.tools.ant.types	2	73	9	0.9166666666666666	0.3412969283276451	-218
+1.4.1	org.apache.tools.ant.taskdefs	9	18	55	0.9865403788634097	0.421875	-6729
+1.4.1	org.apache.tools.ant.taskdefs.condition	2	3	6	0.75	0.6923076923076923	-10
+1.4.1	org.apache.tools.ant.taskdefs.rmic	4	1	12	0.7619047619047619	0.3508771929824561	-3
+1.4.1	org.apache.tools.ant.taskdefs.compilers	3	1	14	0.8363636363636363	0.34951456310679613	-19
+1.4.1	org.apache.tools.ant.listener	1	0	5	NaN	0.0	0
+1.4.1	org.apache.tools.mail	0	1	0	0.6666666666666666	0.8	1
+1.4.1	org.apache.tools.ant.taskdefs.optional	1	0	1	NaN	0.0	0
+1.5.0	org.apache.tools.ant	6	212	18	0.9268617021276596	0.32967032967032966	-860
+1.5.0	org.apache.tools.ant.filters	5	3	8	0.8830409356725146	0.7017543859649122	-97
+1.5.0	org.apache.tools.ant.filters.util	4	4	12	1.0	0.0	-1
+1.5.0	org.apache.tools.ant.helper	2	1	13	0.5	0.5833333333333334	12
+1.5.0	org.apache.tools.ant.input	1	4	1	0.65	0.56	4
+1.5.0	org.apache.tools.ant.listener	3	0	5	1.0	0.0	-1
+1.5.0	org.apache.tools.ant.taskdefs	15	21	92	0.9901131126937579	0.3969722455845248	-11583
+1.5.0	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.5.0	org.apache.tools.ant.taskdefs.condition	3	16	7	0.8516483516483516	0.5625	-43
+1.5.0	org.apache.tools.ant.taskdefs.cvslib	4	0	16	0.8555555555555555	0.5306122448979592	-19
+1.5.0	org.apache.tools.ant.taskdefs.email	3	1	9	0.6333333333333333	0.5789473684210527	5
+1.5.0	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.5.0	org.apache.tools.ant.types	5	121	43	0.9404761904761905	0.2976190476190476	-498
+1.5.0	org.apache.tools.ant.types.selectors	4	3	14	0.8815384615384615	0.6363636363636364	-191
+1.5.0	org.apache.tools.ant.util	5	59	8	0.968421052631579	0.1875	-170
+1.5.0	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.5.0	org.apache.tools.ant.util.regexp	1	3	2	0.75	0.43478260869565216	0
+1.5.0	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.5.0	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.5.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.5.0	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.5.1	org.apache.tools.ant	6	212	18	0.9268617021276596	0.32967032967032966	-860
+1.5.1	org.apache.tools.ant.filters	5	3	8	0.8830409356725146	0.7017543859649122	-97
+1.5.1	org.apache.tools.ant.filters.util	4	4	12	1.0	0.0	-1
+1.5.1	org.apache.tools.ant.helper	2	1	13	0.5	0.5833333333333334	12
+1.5.1	org.apache.tools.ant.input	1	4	1	0.65	0.56	4
+1.5.1	org.apache.tools.ant.listener	3	0	5	1.0	0.0	-1
+1.5.1	org.apache.tools.ant.taskdefs	15	21	92	0.9901131126937579	0.3969722455845248	-11583
+1.5.1	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.5.1	org.apache.tools.ant.taskdefs.condition	3	16	7	0.8516483516483516	0.5625	-43
+1.5.1	org.apache.tools.ant.taskdefs.cvslib	4	0	16	0.8555555555555555	0.5306122448979592	-19
+1.5.1	org.apache.tools.ant.taskdefs.email	3	1	9	0.6333333333333333	0.5789473684210527	5
+1.5.1	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.5.1	org.apache.tools.ant.types	5	121	43	0.9404761904761905	0.297029702970297	-498
+1.5.1	org.apache.tools.ant.types.selectors	4	3	14	0.8815384615384615	0.6363636363636364	-191
+1.5.1	org.apache.tools.ant.util	5	60	8	0.968421052631579	0.18604651162790697	-170
+1.5.1	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.5.1	org.apache.tools.ant.util.regexp	1	3	2	0.75	0.43478260869565216	0
+1.5.1	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.5.1	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.5.1	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.5.1	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.5.2	org.apache.tools.ant	6	216	20	0.925531914893617	0.33070866141732286	-856
+1.5.2	org.apache.tools.ant.filters	5	3	9	0.8830409356725146	0.6956521739130435	-97
+1.5.2	org.apache.tools.ant.filters.util	4	4	12	1.0	0.0	-1
+1.5.2	org.apache.tools.ant.helper	2	1	13	0.5	0.5833333333333334	12
+1.5.2	org.apache.tools.ant.input	1	4	1	0.65	0.56	4
+1.5.2	org.apache.tools.ant.listener	3	0	6	1.0	0.0	-1
+1.5.2	org.apache.tools.ant.taskdefs	15	21	95	0.990119222603299	0.39477977161500816	-11886
+1.5.2	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.5.2	org.apache.tools.ant.taskdefs.condition	3	16	7	0.8516483516483516	0.5625	-43
+1.5.2	org.apache.tools.ant.taskdefs.cvslib	4	0	15	0.8555555555555555	0.5652173913043478	-19
+1.5.2	org.apache.tools.ant.taskdefs.email	4	1	10	0.6333333333333333	0.5641025641025641	5
+1.5.2	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.5.2	org.apache.tools.ant.types	5	124	43	0.9452347083926032	0.29672447013487474	-567
+1.5.2	org.apache.tools.ant.types.selectors	4	4	14	0.8815384615384615	0.6015625	-191
+1.5.2	org.apache.tools.ant.util	5	62	11	0.9666666666666667	0.19310344827586207	-186
+1.5.2	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.5.2	org.apache.tools.ant.util.regexp	1	3	2	0.75	0.43478260869565216	0
+1.5.2	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.5.2	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.5.2	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.5.2	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.5.3	org.apache.tools.ant.listener	3	0	6	1.0	0.0	-1
+1.5.3	org.apache.tools.ant	6	216	20	0.925531914893617	0.33070866141732286	-856
+1.5.3	org.apache.tools.ant.types	5	125	43	0.9452347083926032	0.29672447013487474	-567
+1.5.3	org.apache.tools.ant.types.selectors	4	4	14	0.8815384615384615	0.6015625	-191
+1.5.3	org.apache.tools.ant.input	1	4	1	0.65	0.56	4
+1.5.3	org.apache.tools.ant.util	5	64	11	0.9666666666666667	0.19047619047619047	-186
+1.5.3	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.5.3	org.apache.tools.ant.util.regexp	1	3	2	0.75	0.43478260869565216	0
+1.5.3	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.5.3	org.apache.tools.ant.taskdefs	15	21	95	0.9901233572522776	0.39708265802269044	-12039
+1.5.3	org.apache.tools.ant.taskdefs.condition	3	16	7	0.8516483516483516	0.5625	-43
+1.5.3	org.apache.tools.ant.taskdefs.cvslib	4	0	15	0.8555555555555555	0.5652173913043478	-19
+1.5.3	org.apache.tools.ant.taskdefs.email	4	1	10	0.6333333333333333	0.5641025641025641	5
+1.5.3	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.5.3	org.apache.tools.ant.filters	5	3	9	0.8830409356725146	0.6956521739130435	-97
+1.5.3	org.apache.tools.ant.filters.util	4	4	12	1.0	0.0	-1
+1.5.3	org.apache.tools.ant.helper	2	1	13	0.5	0.5833333333333334	12
+1.5.3	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.5.3	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.5.3	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.5.3	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.5.4	org.apache.tools.ant	6	216	20	0.925531914893617	0.33070866141732286	-856
+1.5.4	org.apache.tools.ant.types	5	125	43	0.9452347083926032	0.29672447013487474	-567
+1.5.4	org.apache.tools.ant.types.selectors	4	4	14	0.8815384615384615	0.6015625	-191
+1.5.4	org.apache.tools.ant.input	1	4	1	0.65	0.56	4
+1.5.4	org.apache.tools.ant.util	5	64	11	0.9666666666666667	0.19047619047619047	-186
+1.5.4	org.apache.tools.ant.util.regexp	1	3	2	0.75	0.43478260869565216	0
+1.5.4	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.5.4	org.apache.tools.ant.filters	5	3	9	0.8830409356725146	0.6956521739130435	-97
+1.5.4	org.apache.tools.ant.filters.util	4	4	12	1.0	0.0	-1
+1.5.4	org.apache.tools.ant.helper	2	1	13	0.5	0.5833333333333334	12
+1.5.4	org.apache.tools.ant.listener	3	0	6	1.0	0.0	-1
+1.5.4	org.apache.tools.ant.taskdefs	15	21	95	0.9901233572522776	0.39708265802269044	-12039
+1.5.4	org.apache.tools.ant.taskdefs.condition	3	16	7	0.8516483516483516	0.5625	-43
+1.5.4	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.5.4	org.apache.tools.ant.taskdefs.cvslib	4	0	15	0.8555555555555555	0.5652173913043478	-19
+1.5.4	org.apache.tools.ant.taskdefs.email	4	1	10	0.6333333333333333	0.5641025641025641	5
+1.5.4	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.5.4	org.apache.tools.zip	0	4	0	0.7777777777777778	0.8648648648648649	-4
+1.5.4	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.5.4	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.5.4	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.0	org.apache.tools.ant	8	275	31	0.931390977443609	0.3335872048743336	-1236
+1.6.0	org.apache.tools.ant.filters	5	2	13	0.9242424242424242	0.6910569105691057	-421
+1.6.0	org.apache.tools.ant.filters.util	4	5	12	1.0	0.0	-1
+1.6.0	org.apache.tools.ant.helper	2	3	14	0.8125	0.5828571428571429	-64
+1.6.0	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.0	org.apache.tools.ant.listener	4	0	10	1.0	0.0	-1
+1.6.0	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.0	org.apache.tools.ant.taskdefs	16	25	112	0.9912923670432626	0.41578947368421054	-17681
+1.6.0	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.6.0	org.apache.tools.ant.taskdefs.condition	4	16	8	0.8571428571428571	0.5660377358490566	-51
+1.6.0	org.apache.tools.ant.taskdefs.cvslib	4	0	15	0.8555555555555555	0.5652173913043478	-19
+1.6.0	org.apache.tools.ant.taskdefs.email	4	2	10	0.6904761904761905	0.5531914893617021	3
+1.6.0	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.6.0	org.apache.tools.ant.types	8	150	67	0.9542815674891146	0.3564356435643564	-1168
+1.6.0	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.0	org.apache.tools.ant.types.selectors	6	6	20	0.9021505376344086	0.5814696485623003	-305
+1.6.0	org.apache.tools.ant.types.selectors.modifiedselector	3	5	8	0.8444444444444444	0.6222222222222222	-23
+1.6.0	org.apache.tools.ant.util	5	89	14	0.9768270944741533	0.23423423423423423	-519
+1.6.0	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.0	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.3225806451612903	0
+1.6.0	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.0	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.0	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.0	org.apache.tools.zip	0	6	0	0.8	0.8148148148148148	-13
+1.6.1	org.apache.tools.ant	8	277	31	0.9301948051948052	0.32799389778794813	-1186
+1.6.1	org.apache.tools.ant.filters	5	2	13	0.9242424242424242	0.6910569105691057	-421
+1.6.1	org.apache.tools.ant.filters.util	4	5	12	1.0	0.0	-1
+1.6.1	org.apache.tools.ant.helper	2	3	14	0.8125	0.5828571428571429	-64
+1.6.1	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.1	org.apache.tools.ant.listener	4	0	10	1.0	0.0	-1
+1.6.1	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.1	org.apache.tools.ant.taskdefs	16	28	112	0.9913012652705061	0.4164490861618799	-17868
+1.6.1	org.apache.tools.ant.taskdefs.compilers	4	1	15	0.8363636363636363	0.34285714285714286	-19
+1.6.1	org.apache.tools.ant.taskdefs.condition	4	16	8	0.8571428571428571	0.5660377358490566	-51
+1.6.1	org.apache.tools.ant.taskdefs.cvslib	4	0	12	0.8727272727272727	0.5714285714285714	-27
+1.6.1	org.apache.tools.ant.taskdefs.email	4	2	10	0.6904761904761905	0.5531914893617021	3
+1.6.1	org.apache.tools.ant.taskdefs.rmic	4	1	13	0.7619047619047619	0.32786885245901637	-3
+1.6.1	org.apache.tools.ant.types	8	149	67	0.9542815674891146	0.35795454545454547	-1168
+1.6.1	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.1	org.apache.tools.ant.types.selectors	6	6	20	0.9021505376344086	0.5814696485623003	-305
+1.6.1	org.apache.tools.ant.types.selectors.modifiedselector	3	5	8	0.8444444444444444	0.6222222222222222	-23
+1.6.1	org.apache.tools.ant.util	5	89	14	0.9768270944741533	0.23423423423423423	-519
+1.6.1	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.1	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.3225806451612903	0
+1.6.1	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.1	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.1	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.1	org.apache.tools.zip	0	6	0	0.8	0.8148148148148148	-13
+1.6.2	org.apache.tools.ant	8	280	29	0.9424603174603174	0.3787755102040816	-1630
+1.6.2	org.apache.tools.ant.filters	5	2	13	0.9340463458110517	0.6727272727272727	-443
+1.6.2	org.apache.tools.ant.filters.util	4	6	11	1.0	0.0	-1
+1.6.2	org.apache.tools.ant.helper	2	3	13	0.8125	0.5895953757225434	-64
+1.6.2	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.2	org.apache.tools.ant.listener	4	0	9	1.0	0.0	-1
+1.6.2	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.2	org.apache.tools.ant.taskdefs	16	29	121	0.9916999162602828	0.45479082321187586	-19813
+1.6.2	org.apache.tools.ant.taskdefs.compilers	4	1	14	0.8363636363636363	0.3711340206185567	-19
+1.6.2	org.apache.tools.ant.taskdefs.condition	4	18	8	0.8571428571428571	0.5504587155963303	-51
+1.6.2	org.apache.tools.ant.taskdefs.cvslib	4	0	10	0.8727272727272727	0.6363636363636364	-27
+1.6.2	org.apache.tools.ant.taskdefs.email	4	2	9	0.6904761904761905	0.5909090909090909	3
+1.6.2	org.apache.tools.ant.taskdefs.rmic	4	1	12	0.7619047619047619	0.37037037037037035	-3
+1.6.2	org.apache.tools.ant.types	9	143	70	0.9575757575757575	0.3835616438356164	-1277
+1.6.2	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.2	org.apache.tools.ant.types.selectors	6	7	18	0.9129032258064517	0.5785714285714286	-323
+1.6.2	org.apache.tools.ant.types.selectors.modifiedselector	3	5	6	0.8444444444444444	0.6666666666666666	-23
+1.6.2	org.apache.tools.ant.util	6	93	16	0.9795127353266888	0.2857142857142857	-843
+1.6.2	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.2	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.38461538461538464	0
+1.6.2	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.2	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.2	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.2	org.apache.tools.zip	0	6	0	0.8	0.7857142857142857	-13
+1.6.3	org.apache.tools.ant	8	287	29	0.9452214452214452	0.3745019920318725	-1753
+1.6.3	org.apache.tools.ant.filters	5	2	13	0.9340463458110517	0.6727272727272727	-443
+1.6.3	org.apache.tools.ant.filters.util	4	7	11	1.0	0.0	-1
+1.6.3	org.apache.tools.ant.helper	2	3	14	0.847953216374269	0.5683060109289617	-97
+1.6.3	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.3	org.apache.tools.ant.listener	4	0	9	1.0	0.0	-1
+1.6.3	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.3	org.apache.tools.ant.taskdefs	16	28	124	0.9918930667246251	0.47305009511731133	-22469
+1.6.3	org.apache.tools.ant.taskdefs.compilers	4	1	16	0.8363636363636363	0.3673469387755102	-19
+1.6.3	org.apache.tools.ant.taskdefs.condition	5	18	10	0.8708333333333333	0.5344827586206896	-64
+1.6.3	org.apache.tools.ant.taskdefs.cvslib	4	0	12	0.8727272727272727	0.5714285714285714	-27
+1.6.3	org.apache.tools.ant.taskdefs.email	4	2	9	0.6904761904761905	0.5909090909090909	3
+1.6.3	org.apache.tools.ant.taskdefs.rmic	4	1	14	0.7619047619047619	0.35714285714285715	-3
+1.6.3	org.apache.tools.ant.types	9	151	70	0.9575757575757575	0.37668161434977576	-1277
+1.6.3	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.6.3	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.3	org.apache.tools.ant.types.selectors	6	8	18	0.8981854838709677	0.6215384615384615	-314
+1.6.3	org.apache.tools.ant.types.selectors.modifiedselector	3	6	6	0.8444444444444444	0.6511627906976745	-23
+1.6.3	org.apache.tools.ant.util	6	98	16	0.9797979797979798	0.28776978417266186	-924
+1.6.3	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.3	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.38461538461538464	0
+1.6.3	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.3	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.3	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.3	org.apache.tools.zip	0	6	0	0.8181818181818182	0.7619047619047619	-20
+1.6.4	org.apache.tools.ant	8	287	29	0.9452214452214452	0.3745019920318725	-1753
+1.6.4	org.apache.tools.ant.filters	5	2	13	0.9340463458110517	0.6727272727272727	-443
+1.6.4	org.apache.tools.ant.filters.util	4	7	11	1.0	0.0	-1
+1.6.4	org.apache.tools.ant.helper	2	3	14	0.847953216374269	0.5683060109289617	-97
+1.6.4	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.4	org.apache.tools.ant.listener	4	0	9	1.0	0.0	-1
+1.6.4	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.4	org.apache.tools.ant.taskdefs	16	28	124	0.9918930667246251	0.47305009511731133	-22469
+1.6.4	org.apache.tools.ant.taskdefs.compilers	4	1	16	0.8363636363636363	0.3673469387755102	-19
+1.6.4	org.apache.tools.ant.taskdefs.condition	5	18	10	0.8708333333333333	0.5344827586206896	-64
+1.6.4	org.apache.tools.ant.taskdefs.cvslib	4	0	12	0.8727272727272727	0.5714285714285714	-27
+1.6.4	org.apache.tools.ant.taskdefs.email	4	2	9	0.6904761904761905	0.5909090909090909	3
+1.6.4	org.apache.tools.ant.taskdefs.rmic	4	1	14	0.7619047619047619	0.35714285714285715	-3
+1.6.4	org.apache.tools.ant.types	9	151	70	0.9575757575757575	0.37668161434977576	-1277
+1.6.4	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.6.4	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.4	org.apache.tools.ant.types.selectors	6	8	18	0.8981854838709677	0.6215384615384615	-314
+1.6.4	org.apache.tools.ant.types.selectors.modifiedselector	3	6	6	0.8444444444444444	0.6511627906976745	-23
+1.6.4	org.apache.tools.ant.util	6	98	16	0.9797979797979798	0.28776978417266186	-924
+1.6.4	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.4	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.38461538461538464	0
+1.6.4	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.4	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.4	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.4	org.apache.tools.zip	0	6	0	0.8181818181818182	0.7619047619047619	-20
+1.6.5	org.apache.tools.ant	8	287	29	0.9452214452214452	0.37420382165605093	-1753
+1.6.5	org.apache.tools.ant.filters	5	2	13	0.9340463458110517	0.6727272727272727	-443
+1.6.5	org.apache.tools.ant.filters.util	4	7	11	1.0	0.0	-1
+1.6.5	org.apache.tools.ant.helper	2	3	14	0.847953216374269	0.5683060109289617	-97
+1.6.5	org.apache.tools.ant.input	2	4	2	0.65	0.5384615384615384	4
+1.6.5	org.apache.tools.ant.listener	4	0	9	1.0	0.0	-1
+1.6.5	org.apache.tools.ant.loader	3	1	5	NaN	0.0	0
+1.6.5	org.apache.tools.ant.taskdefs	16	28	124	0.9918930667246251	0.47245091830272323	-22469
+1.6.5	org.apache.tools.ant.taskdefs.compilers	4	1	16	0.8363636363636363	0.3673469387755102	-19
+1.6.5	org.apache.tools.ant.taskdefs.condition	5	18	10	0.8708333333333333	0.5344827586206896	-64
+1.6.5	org.apache.tools.ant.taskdefs.cvslib	4	0	12	0.8727272727272727	0.5714285714285714	-27
+1.6.5	org.apache.tools.ant.taskdefs.email	4	2	9	0.6904761904761905	0.5909090909090909	3
+1.6.5	org.apache.tools.ant.taskdefs.rmic	4	1	14	0.7619047619047619	0.35714285714285715	-3
+1.6.5	org.apache.tools.ant.types	9	151	70	0.9575757575757575	0.3761194029850746	-1277
+1.6.5	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.6.5	org.apache.tools.ant.types.resolver	2	0	3	-0.0	0.5714285714285714	1
+1.6.5	org.apache.tools.ant.types.selectors	6	8	18	0.8981854838709677	0.6215384615384615	-314
+1.6.5	org.apache.tools.ant.types.selectors.modifiedselector	3	6	6	0.8444444444444444	0.6511627906976745	-23
+1.6.5	org.apache.tools.ant.util	6	98	16	0.9797979797979798	0.28776978417266186	-924
+1.6.5	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.6.5	org.apache.tools.ant.util.regexp	1	7	2	0.75	0.38461538461538464	0
+1.6.5	org.apache.tools.bzip2	0	4	0	0.7	0.8181818181818182	-1
+1.6.5	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.6.5	org.apache.tools.tar	0	2	0	0.8	0.75	-3
+1.6.5	org.apache.tools.zip	0	6	0	0.8181818181818182	0.7619047619047619	-20
+1.7.0	org.apache.tools.ant	9	367	36	0.9443690637720489	0.3400138217000691	-1803
+1.7.0	org.apache.tools.ant.dispatch	1	2	3	0.6666666666666666	0.4	1
+1.7.0	org.apache.tools.ant.filters	5	6	17	0.9471458773784355	0.7067137809187279	-794
+1.7.0	org.apache.tools.ant.filters.util	4	6	11	NaN	0.0	0
+1.7.0	org.apache.tools.ant.helper	2	3	14	0.847953216374269	0.5652173913043478	-97
+1.7.0	org.apache.tools.ant.input	3	6	3	0.7	0.4864864864864865	3
+1.7.0	org.apache.tools.ant.listener	4	0	11	1.0	0.0	-3
+1.7.0	org.apache.tools.ant.loader	1	0	1	NaN	0.0	0
+1.7.0	org.apache.tools.ant.taskdefs	21	32	166	0.9928909185127607	0.44343434343434346	-30248
+1.7.0	org.apache.tools.ant.taskdefs.compilers	5	1	21	0.8653846153846154	0.3387096774193548	-36
+1.7.0	org.apache.tools.ant.taskdefs.condition	8	26	31	0.9373219373219374	0.4536082474226804	-269
+1.7.0	org.apache.tools.ant.taskdefs.cvslib	4	0	11	0.8727272727272727	0.5714285714285714	-27
+1.7.0	org.apache.tools.ant.taskdefs.email	5	2	13	0.75	0.56	-2
+1.7.0	org.apache.tools.ant.taskdefs.rmic	4	1	18	0.8055555555555556	0.37333333333333335	-10
+1.7.0	org.apache.tools.ant.types	12	248	81	0.9648021308980214	0.35992217898832685	-2322
+1.7.0	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.7.0	org.apache.tools.ant.types.resources	9	52	31	0.9595141700404858	0.39473684210526316	-641
+1.7.0	org.apache.tools.ant.types.resources.comparators	4	7	7	0.9	0.36	-27
+1.7.0	org.apache.tools.ant.types.resources.selectors	6	12	17	0.9095238095238095	0.37623762376237624	-69
+1.7.0	org.apache.tools.ant.types.selectors	8	12	22	0.9024621212121212	0.5919540229885057	-342
+1.7.0	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.576271186440678	-27
+1.7.0	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.7.0	org.apache.tools.ant.util	8	159	33	0.9855072463768116	0.2966101694915254	-2301
+1.7.0	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.7.0	org.apache.tools.ant.util.regexp	2	8	4	0.75	0.3333333333333333	0
+1.7.0	org.apache.tools.bzip2	0	5	0	0.7333333333333333	0.7272727272727273	-3
+1.7.0	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.7.0	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.7.0	org.apache.tools.zip	0	9	0	0.8406593406593407	0.7435897435897436	-39
+1.7.1	org.apache.tools.ant	9	377	36	0.9446883230904302	0.33962264150943394	-1860
+1.7.1	org.apache.tools.ant.dispatch	1	2	3	0.6666666666666666	0.4	1
+1.7.1	org.apache.tools.ant.filters	5	6	17	0.9471458773784355	0.7067137809187279	-794
+1.7.1	org.apache.tools.ant.filters.util	4	6	11	NaN	0.0	0
+1.7.1	org.apache.tools.ant.helper	2	3	15	0.8605263157894737	0.5549738219895288	-114
+1.7.1	org.apache.tools.ant.input	3	6	4	0.7380952380952381	0.5116279069767442	1
+1.7.1	org.apache.tools.ant.listener	4	0	14	0.8333333333333334	0.3448275862068966	-9
+1.7.1	org.apache.tools.ant.loader	1	0	1	NaN	0.0	0
+1.7.1	org.apache.tools.ant.taskdefs	21	32	166	0.9929804591159173	0.4435564435564436	-30990
+1.7.1	org.apache.tools.ant.taskdefs.compilers	5	1	21	0.8653846153846154	0.3387096774193548	-36
+1.7.1	org.apache.tools.ant.taskdefs.condition	8	26	33	0.9404761904761905	0.4433497536945813	-294
+1.7.1	org.apache.tools.ant.taskdefs.cvslib	4	0	11	0.8727272727272727	0.5714285714285714	-27
+1.7.1	org.apache.tools.ant.taskdefs.email	5	2	13	0.75	0.56	-2
+1.7.1	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.3684210526315789	-10
+1.7.1	org.apache.tools.ant.types	12	252	81	0.9657657657657658	0.3619047619047619	-2463
+1.7.1	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.7.1	org.apache.tools.ant.types.resources	9	56	31	0.9621951219512195	0.3924050632911392	-716
+1.7.1	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3829787234042553	-27
+1.7.1	org.apache.tools.ant.types.resources.selectors	6	12	17	0.9095238095238095	0.3877551020408163	-69
+1.7.1	org.apache.tools.ant.types.selectors	8	12	22	0.9024621212121212	0.5902578796561605	-342
+1.7.1	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.576271186440678	-27
+1.7.1	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.7.1	org.apache.tools.ant.util	8	170	30	0.9859154929577465	0.2903225806451613	-2438
+1.7.1	org.apache.tools.ant.util.facade	1	4	2	0.5	0.2	1
+1.7.1	org.apache.tools.ant.util.regexp	2	8	4	0.8	0.27586206896551724	-2
+1.7.1	org.apache.tools.bzip2	0	5	0	0.7380952380952381	0.7857142857142857	-5
+1.7.1	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.7.1	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.7.1	org.apache.tools.zip	0	9	0	0.8406593406593407	0.7435897435897436	-39
+1.8.0	org.apache.tools.ant	10	416	47	0.957703081232493	0.35466823253082796	-3074
+1.8.0	org.apache.tools.ant.dispatch	1	2	3	0.6666666666666666	0.4	1
+1.8.0	org.apache.tools.ant.filters	6	7	19	0.9521276595744681	0.7058823529411765	-962
+1.8.0	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.8.0	org.apache.tools.ant.helper	5	2	20	0.8605263157894737	0.5326633165829145	-114
+1.8.0	org.apache.tools.ant.input	3	6	4	0.7380952380952381	0.5	1
+1.8.0	org.apache.tools.ant.listener	4	0	16	0.8809523809523809	0.2857142857142857	-15
+1.8.0	org.apache.tools.ant.loader	1	0	1	NaN	0.0	0
+1.8.0	org.apache.tools.ant.property	1	9	6	0.8571428571428571	0.37209302325581395	-12
+1.8.0	org.apache.tools.ant.taskdefs	21	37	184	0.9935696906499826	0.429272646140116	-36721
+1.8.0	org.apache.tools.ant.taskdefs.compilers	5	1	22	0.8717948717948718	0.32	-38
+1.8.0	org.apache.tools.ant.taskdefs.condition	8	26	36	0.9485887096774194	0.45535714285714285	-404
+1.8.0	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.8.0	org.apache.tools.ant.taskdefs.email	5	2	16	0.75	0.5185185185185185	-2
+1.8.0	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.8.0	org.apache.tools.ant.types	12	292	86	0.9655855855855856	0.3313096270598439	-2461
+1.8.0	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.8.0	org.apache.tools.ant.types.resources	11	69	45	0.973445143256464	0.3333333333333333	-1301
+1.8.0	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.8.0	org.apache.tools.ant.types.resources.selectors	7	22	19	0.9095238095238095	0.34545454545454546	-69
+1.8.0	org.apache.tools.ant.types.selectors	8	15	25	0.9136636636636637	0.583756345177665	-462
+1.8.0	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.8.0	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.8.0	org.apache.tools.ant.util	9	193	31	0.9866946778711485	0.31456953642384106	-3424
+1.8.0	org.apache.tools.ant.util.facade	2	4	4	0.5	0.16666666666666666	1
+1.8.0	org.apache.tools.ant.util.regexp	2	10	3	0.7380952380952381	0.4888888888888889	1
+1.8.0	org.apache.tools.bzip2	0	5	0	0.7333333333333333	0.7272727272727273	-3
+1.8.0	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.8.0	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.8.0	org.apache.tools.zip	0	11	0	0.9017094017094017	0.8414634146341463	-231
+1.8.1	org.apache.tools.ant	10	418	44	0.957703081232493	0.35362997658079626	-3074
+1.8.1	org.apache.tools.ant.dispatch	1	2	3	0.6666666666666666	0.4	1
+1.8.1	org.apache.tools.ant.filters	6	7	19	0.9521276595744681	0.7058823529411765	-962
+1.8.1	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.8.1	org.apache.tools.ant.helper	5	2	20	0.8605263157894737	0.527363184079602	-114
+1.8.1	org.apache.tools.ant.input	3	6	4	0.7380952380952381	0.5	1
+1.8.1	org.apache.tools.ant.listener	4	0	16	0.8928571428571429	0.32432432432432434	-20
+1.8.1	org.apache.tools.ant.loader	1	0	1	NaN	0.0	0
+1.8.1	org.apache.tools.ant.property	1	9	6	0.8571428571428571	0.37209302325581395	-12
+1.8.1	org.apache.tools.ant.taskdefs	21	36	187	0.9936164565361646	0.428698752228164	-36995
+1.8.1	org.apache.tools.ant.taskdefs.compilers	5	1	22	0.8717948717948718	0.32	-38
+1.8.1	org.apache.tools.ant.taskdefs.condition	8	25	36	0.9485887096774194	0.45739910313901344	-404
+1.8.1	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.8.1	org.apache.tools.ant.taskdefs.email	5	2	15	0.75	0.5283018867924528	-2
+1.8.1	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.8.1	org.apache.tools.ant.types	12	291	87	0.9655855855855856	0.3313096270598439	-2461
+1.8.1	org.apache.tools.ant.types.mappers	4	0	7	NaN	0.0	0
+1.8.1	org.apache.tools.ant.types.resources	11	69	46	0.9732277526395173	0.3183856502242152	-1202
+1.8.1	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.8.1	org.apache.tools.ant.types.resources.selectors	7	22	19	0.9095238095238095	0.34545454545454546	-69
+1.8.1	org.apache.tools.ant.types.selectors	8	15	25	0.9136636636636637	0.583756345177665	-462
+1.8.1	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.8.1	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.8.1	org.apache.tools.ant.util	9	192	31	0.9866946778711485	0.3125	-3424
+1.8.1	org.apache.tools.ant.util.facade	2	4	4	0.5	0.16666666666666666	1
+1.8.1	org.apache.tools.ant.util.regexp	2	10	3	0.7380952380952381	0.4888888888888889	1
+1.8.1	org.apache.tools.bzip2	0	5	0	0.7333333333333333	0.7272727272727273	-3
+1.8.1	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.8.1	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.8.1	org.apache.tools.zip	0	11	0	0.9103448275862069	0.8571428571428571	-299
+1.8.2	org.apache.tools.ant	11	547	46	0.9582763337893296	0.2929875120076849	-3155
+1.8.2	org.apache.tools.ant.dispatch	1	3	3	0.6666666666666666	0.3333333333333333	1
+1.8.2	org.apache.tools.ant.filters	6	8	20	0.9521276595744681	0.6967741935483871	-962
+1.8.2	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.8.2	org.apache.tools.ant.helper	5	1	21	0.8605263157894737	0.5247524752475248	-114
+1.8.2	org.apache.tools.ant.input	3	6	4	0.7380952380952381	0.5	1
+1.8.2	org.apache.tools.ant.listener	4	0	16	0.8928571428571429	0.32432432432432434	-20
+1.8.2	org.apache.tools.ant.loader	2	1	3	1.0	0.0	-1
+1.8.2	org.apache.tools.ant.property	1	10	6	0.8571428571428571	0.35555555555555557	-12
+1.8.2	org.apache.tools.ant.taskdefs	22	93	191	0.9937407474742228	0.4072665821715251	-37821
+1.8.2	org.apache.tools.ant.taskdefs.compilers	5	1	22	0.8846153846153846	0.328125	-49
+1.8.2	org.apache.tools.ant.taskdefs.condition	8	33	37	0.9485887096774194	0.43776824034334766	-404
+1.8.2	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.8.2	org.apache.tools.ant.taskdefs.email	5	3	15	0.75	0.5185185185185185	-2
+1.8.2	org.apache.tools.ant.taskdefs.optional	10	9	67	0.951058201058201	0.31759656652360513	-334
+1.8.2	org.apache.tools.ant.taskdefs.optional.ccm	4	0	12	0.8571428571428571	0.3	-9
+1.8.2	org.apache.tools.ant.taskdefs.optional.clearcase	5	0	12	0.9285714285714286	0.22413793103448276	-65
+1.8.2	org.apache.tools.ant.taskdefs.optional.depend	6	0	14	0.8055555555555556	0.6511627906976745	-12
+1.8.2	org.apache.tools.ant.taskdefs.optional.depend.constantpool	0	1	0	0.7362637362637363	0.9696969696969697	-21
+1.8.2	org.apache.tools.ant.taskdefs.optional.ejb	5	0	22	0.8789173789173789	0.6589147286821705	-223
+1.8.2	org.apache.tools.ant.taskdefs.optional.extension	4	3	12	0.8875	0.5346534653465347	-66
+1.8.2	org.apache.tools.ant.taskdefs.optional.extension.resolvers	3	1	6	1.0	0.0	-3
+1.8.2	org.apache.tools.ant.taskdefs.optional.i18n	4	0	8	NaN	0.0	0
+1.8.2	org.apache.tools.ant.taskdefs.optional.j2ee	3	0	7	0.5	0.5555555555555556	7
+1.8.2	org.apache.tools.ant.taskdefs.optional.javacc	4	0	14	0.6666666666666666	0.0975609756097561	1
+1.8.2	org.apache.tools.ant.taskdefs.optional.javah	5	1	14	0.65	0.2692307692307692	4
+1.8.2	org.apache.tools.ant.taskdefs.optional.jlink	4	0	6	0.75	0.5	0
+1.8.2	org.apache.tools.ant.taskdefs.optional.jsp	5	4	15	0.8333333333333334	0.24390243902439024	-7
+1.8.2	org.apache.tools.ant.taskdefs.optional.jsp.compilers	4	1	15	0.6666666666666666	0.20512820512820512	2
+1.8.2	org.apache.tools.ant.taskdefs.optional.native2ascii	5	1	11	0.7	0.3076923076923077	2
+1.8.2	org.apache.tools.ant.taskdefs.optional.net	2	0	3	0.5833333333333334	0.7142857142857143	0
+1.8.2	org.apache.tools.ant.taskdefs.optional.pvcs	4	0	12	0.5	0.14285714285714285	1
+1.8.2	org.apache.tools.ant.taskdefs.optional.script	4	0	13	0.5	0.42857142857142855	0
+1.8.2	org.apache.tools.ant.taskdefs.optional.sos	4	0	11	0.8333333333333334	0.3225806451612903	-5
+1.8.2	org.apache.tools.ant.taskdefs.optional.testing	4	0	12	0.6	0.47058823529411764	2
+1.8.2	org.apache.tools.ant.taskdefs.optional.unix	6	0	17	0.8333333333333334	0.12903225806451613	-2
+1.8.2	org.apache.tools.ant.taskdefs.optional.vss	4	0	12	0.8782051282051282	0.4418604651162791	-46
+1.8.2	org.apache.tools.ant.taskdefs.optional.windows	4	0	7	NaN	0.0	0
+1.8.2	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.8.2	org.apache.tools.ant.types	12	399	87	0.9655855855855856	0.2756132756132756	-2461
+1.8.2	org.apache.tools.ant.types.mappers	4	0	7	1.0	0.0	-1
+1.8.2	org.apache.tools.ant.types.optional	6	0	12	0.9	0.12903225806451613	-6
+1.8.2	org.apache.tools.ant.types.optional.depend	4	0	9	0.5	0.35294117647058826	1
+1.8.2	org.apache.tools.ant.types.resources	11	71	46	0.975	0.33047210300429186	-1408
+1.8.2	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.8.2	org.apache.tools.ant.types.resources.selectors	7	22	20	0.9095238095238095	0.34234234234234234	-69
+1.8.2	org.apache.tools.ant.types.selectors	8	16	26	0.9136636636636637	0.5793450881612091	-462
+1.8.2	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.8.2	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.8.2	org.apache.tools.ant.util	9	242	32	0.986593707250342	0.28405797101449276	-3503
+1.8.2	org.apache.tools.ant.util.depend	3	4	3	0.5	0.2	1
+1.8.2	org.apache.tools.ant.util.facade	2	6	4	0.5	0.125	1
+1.8.2	org.apache.tools.ant.util.java15	1	1	1	NaN	0.0	0
+1.8.2	org.apache.tools.ant.util.optional	2	0	6	1.0	0.0	-3
+1.8.2	org.apache.tools.ant.util.regexp	2	12	3	0.7380952380952381	0.4074074074074074	1
+1.8.2	org.apache.tools.bzip2	0	5	0	0.7333333333333333	0.7272727272727273	-3
+1.8.2	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.8.2	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.8.2	org.apache.tools.zip	0	11	0	0.9103448275862069	0.8571428571428571	-299
+1.8.3	org.apache.tools.ant	11	547	49	0.9582763337893296	0.2922855773838045	-3155
+1.8.3	org.apache.tools.ant.dispatch	1	3	3	0.6666666666666666	0.3333333333333333	1
+1.8.3	org.apache.tools.ant.filters	7	8	25	0.9532312925170068	0.6853582554517134	-1008
+1.8.3	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.8.3	org.apache.tools.ant.helper	5	1	21	0.8605263157894737	0.5247524752475248	-114
+1.8.3	org.apache.tools.ant.input	3	6	5	0.7380952380952381	0.4888888888888889	1
+1.8.3	org.apache.tools.ant.listener	4	0	16	0.8928571428571429	0.32432432432432434	-20
+1.8.3	org.apache.tools.ant.loader	2	1	3	1.0	0.0	-1
+1.8.3	org.apache.tools.ant.property	1	12	6	0.8571428571428571	0.3333333333333333	-12
+1.8.3	org.apache.tools.ant.taskdefs	22	94	192	0.9937407474742228	0.4060657118786858	-37821
+1.8.3	org.apache.tools.ant.taskdefs.compilers	5	1	22	0.8846153846153846	0.328125	-49
+1.8.3	org.apache.tools.ant.taskdefs.condition	8	35	37	0.9485887096774194	0.4340425531914894	-404
+1.8.3	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.8.3	org.apache.tools.ant.taskdefs.email	5	3	15	0.75	0.5185185185185185	-2
+1.8.3	org.apache.tools.ant.taskdefs.optional	10	9	67	0.951058201058201	0.31759656652360513	-334
+1.8.3	org.apache.tools.ant.taskdefs.optional.ccm	4	0	12	0.8571428571428571	0.3	-9
+1.8.3	org.apache.tools.ant.taskdefs.optional.clearcase	5	0	12	0.9285714285714286	0.22413793103448276	-65
+1.8.3	org.apache.tools.ant.taskdefs.optional.depend	6	0	14	0.8055555555555556	0.6511627906976745	-12
+1.8.3	org.apache.tools.ant.taskdefs.optional.depend.constantpool	0	1	0	0.7362637362637363	0.9696969696969697	-21
+1.8.3	org.apache.tools.ant.taskdefs.optional.ejb	5	0	22	0.8789173789173789	0.6589147286821705	-223
+1.8.3	org.apache.tools.ant.taskdefs.optional.extension	4	3	12	0.8875	0.5346534653465347	-66
+1.8.3	org.apache.tools.ant.taskdefs.optional.extension.resolvers	3	1	6	1.0	0.0	-3
+1.8.3	org.apache.tools.ant.taskdefs.optional.i18n	4	0	8	NaN	0.0	0
+1.8.3	org.apache.tools.ant.taskdefs.optional.j2ee	3	0	7	0.5	0.5555555555555556	7
+1.8.3	org.apache.tools.ant.taskdefs.optional.javacc	4	0	14	0.6666666666666666	0.0975609756097561	1
+1.8.3	org.apache.tools.ant.taskdefs.optional.javah	5	1	14	0.65	0.2692307692307692	4
+1.8.3	org.apache.tools.ant.taskdefs.optional.jlink	4	0	6	0.75	0.5	0
+1.8.3	org.apache.tools.ant.taskdefs.optional.jsp	5	4	15	0.8333333333333334	0.24390243902439024	-7
+1.8.3	org.apache.tools.ant.taskdefs.optional.jsp.compilers	4	1	15	0.6666666666666666	0.20512820512820512	2
+1.8.3	org.apache.tools.ant.taskdefs.optional.native2ascii	5	1	11	0.7	0.3076923076923077	2
+1.8.3	org.apache.tools.ant.taskdefs.optional.net	2	0	3	0.5833333333333334	0.7142857142857143	0
+1.8.3	org.apache.tools.ant.taskdefs.optional.pvcs	4	0	12	0.5	0.14285714285714285	1
+1.8.3	org.apache.tools.ant.taskdefs.optional.script	4	0	13	0.5	0.42857142857142855	0
+1.8.3	org.apache.tools.ant.taskdefs.optional.sos	4	0	11	0.8333333333333334	0.3225806451612903	-5
+1.8.3	org.apache.tools.ant.taskdefs.optional.testing	4	0	12	0.6	0.47058823529411764	2
+1.8.3	org.apache.tools.ant.taskdefs.optional.unix	6	0	17	0.8333333333333334	0.12903225806451613	-2
+1.8.3	org.apache.tools.ant.taskdefs.optional.vss	4	0	12	0.8782051282051282	0.4418604651162791	-46
+1.8.3	org.apache.tools.ant.taskdefs.optional.windows	4	0	7	NaN	0.0	0
+1.8.3	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.8.3	org.apache.tools.ant.types	12	400	88	0.9654054054054054	0.2760603882099209	-2459
+1.8.3	org.apache.tools.ant.types.mappers	4	0	7	1.0	0.0	-1
+1.8.3	org.apache.tools.ant.types.optional	6	0	12	0.9	0.12903225806451613	-6
+1.8.3	org.apache.tools.ant.types.optional.depend	4	0	9	0.5	0.35294117647058826	1
+1.8.3	org.apache.tools.ant.types.resources	11	71	46	0.975	0.32905982905982906	-1408
+1.8.3	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.8.3	org.apache.tools.ant.types.resources.selectors	7	22	20	0.9095238095238095	0.34234234234234234	-69
+1.8.3	org.apache.tools.ant.types.selectors	8	16	26	0.9136636636636637	0.5793450881612091	-462
+1.8.3	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.8.3	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.8.3	org.apache.tools.ant.util	9	245	32	0.9869383490073145	0.28653295128939826	-3672
+1.8.3	org.apache.tools.ant.util.depend	3	4	3	0.5	0.2	1
+1.8.3	org.apache.tools.ant.util.facade	2	6	4	0.5	0.125	1
+1.8.3	org.apache.tools.ant.util.java15	1	1	1	NaN	0.0	0
+1.8.3	org.apache.tools.ant.util.optional	2	0	6	1.0	0.0	-3
+1.8.3	org.apache.tools.ant.util.regexp	2	12	3	0.7380952380952381	0.4074074074074074	1
+1.8.3	org.apache.tools.bzip2	0	5	0	0.7333333333333333	0.7272727272727273	-3
+1.8.3	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.8.3	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.8.3	org.apache.tools.zip	0	11	0	0.9103448275862069	0.8571428571428571	-299
+1.8.4	org.apache.tools.ant	11	547	49	0.9582763337893296	0.2922855773838045	-3155
+1.8.4	org.apache.tools.ant.dispatch	1	3	3	0.6666666666666666	0.3333333333333333	1
+1.8.4	org.apache.tools.ant.filters	7	8	25	0.9532312925170068	0.6853582554517134	-1008
+1.8.4	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.8.4	org.apache.tools.ant.helper	5	1	21	0.8605263157894737	0.5247524752475248	-114
+1.8.4	org.apache.tools.ant.input	3	6	5	0.7380952380952381	0.4888888888888889	1
+1.8.4	org.apache.tools.ant.listener	4	0	16	0.8928571428571429	0.32432432432432434	-20
+1.8.4	org.apache.tools.ant.loader	2	1	3	1.0	0.0	-1
+1.8.4	org.apache.tools.ant.property	1	12	6	0.8571428571428571	0.3333333333333333	-12
+1.8.4	org.apache.tools.ant.taskdefs	22	94	192	0.9937407474742228	0.4060657118786858	-37821
+1.8.4	org.apache.tools.ant.taskdefs.compilers	5	1	22	0.8846153846153846	0.328125	-49
+1.8.4	org.apache.tools.ant.taskdefs.condition	8	35	37	0.9485887096774194	0.4340425531914894	-404
+1.8.4	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.8.4	org.apache.tools.ant.taskdefs.email	5	3	15	0.75	0.5185185185185185	-2
+1.8.4	org.apache.tools.ant.taskdefs.optional	10	9	67	0.951058201058201	0.31759656652360513	-334
+1.8.4	org.apache.tools.ant.taskdefs.optional.ccm	4	0	12	0.8571428571428571	0.3	-9
+1.8.4	org.apache.tools.ant.taskdefs.optional.clearcase	5	0	12	0.9285714285714286	0.22413793103448276	-65
+1.8.4	org.apache.tools.ant.taskdefs.optional.depend	6	0	14	0.8055555555555556	0.6511627906976745	-12
+1.8.4	org.apache.tools.ant.taskdefs.optional.depend.constantpool	0	1	0	0.7362637362637363	0.9696969696969697	-21
+1.8.4	org.apache.tools.ant.taskdefs.optional.ejb	5	0	22	0.8789173789173789	0.6589147286821705	-223
+1.8.4	org.apache.tools.ant.taskdefs.optional.extension	4	3	12	0.8875	0.5346534653465347	-66
+1.8.4	org.apache.tools.ant.taskdefs.optional.extension.resolvers	3	1	6	1.0	0.0	-3
+1.8.4	org.apache.tools.ant.taskdefs.optional.i18n	4	0	8	NaN	0.0	0
+1.8.4	org.apache.tools.ant.taskdefs.optional.j2ee	3	0	7	0.5	0.5555555555555556	7
+1.8.4	org.apache.tools.ant.taskdefs.optional.javacc	4	0	14	0.6666666666666666	0.0975609756097561	1
+1.8.4	org.apache.tools.ant.taskdefs.optional.javah	5	1	14	0.65	0.2692307692307692	4
+1.8.4	org.apache.tools.ant.taskdefs.optional.jlink	4	0	6	0.75	0.5	0
+1.8.4	org.apache.tools.ant.taskdefs.optional.jsp	5	4	15	0.8333333333333334	0.24390243902439024	-7
+1.8.4	org.apache.tools.ant.taskdefs.optional.jsp.compilers	4	1	15	0.6666666666666666	0.20512820512820512	2
+1.8.4	org.apache.tools.ant.taskdefs.optional.native2ascii	5	1	11	0.7	0.3076923076923077	2
+1.8.4	org.apache.tools.ant.taskdefs.optional.net	2	0	3	0.5833333333333334	0.7142857142857143	0
+1.8.4	org.apache.tools.ant.taskdefs.optional.pvcs	4	0	12	0.5	0.14285714285714285	1
+1.8.4	org.apache.tools.ant.taskdefs.optional.script	4	0	13	0.5	0.42857142857142855	0
+1.8.4	org.apache.tools.ant.taskdefs.optional.sos	4	0	11	0.8333333333333334	0.3225806451612903	-5
+1.8.4	org.apache.tools.ant.taskdefs.optional.testing	4	0	12	0.6	0.47058823529411764	2
+1.8.4	org.apache.tools.ant.taskdefs.optional.unix	6	0	17	0.8333333333333334	0.12903225806451613	-2
+1.8.4	org.apache.tools.ant.taskdefs.optional.vss	4	0	12	0.8782051282051282	0.4418604651162791	-46
+1.8.4	org.apache.tools.ant.taskdefs.optional.windows	4	0	7	NaN	0.0	0
+1.8.4	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.8.4	org.apache.tools.ant.types	12	400	88	0.9654054054054054	0.2760603882099209	-2459
+1.8.4	org.apache.tools.ant.types.mappers	4	0	7	1.0	0.0	-1
+1.8.4	org.apache.tools.ant.types.optional	6	0	12	0.9	0.12903225806451613	-6
+1.8.4	org.apache.tools.ant.types.optional.depend	4	0	9	0.5	0.35294117647058826	1
+1.8.4	org.apache.tools.ant.types.resources	11	71	46	0.975	0.32905982905982906	-1408
+1.8.4	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.8.4	org.apache.tools.ant.types.resources.selectors	7	22	20	0.9095238095238095	0.34234234234234234	-69
+1.8.4	org.apache.tools.ant.types.selectors	8	16	26	0.9136636636636637	0.5793450881612091	-462
+1.8.4	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.8.4	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.8.4	org.apache.tools.ant.util	9	245	32	0.9869383490073145	0.28653295128939826	-3672
+1.8.4	org.apache.tools.ant.util.depend	3	4	3	0.5	0.2	1
+1.8.4	org.apache.tools.ant.util.facade	2	6	4	0.5	0.125	1
+1.8.4	org.apache.tools.ant.util.java15	1	1	1	NaN	0.0	0
+1.8.4	org.apache.tools.ant.util.optional	2	0	6	1.0	0.0	-3
+1.8.4	org.apache.tools.ant.util.regexp	2	12	3	0.7380952380952381	0.4074074074074074	1
+1.8.4	org.apache.tools.bzip2	0	5	0	0.7380952380952381	0.7857142857142857	-5
+1.8.4	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.8.4	org.apache.tools.tar	0	4	0	0.8	0.6	-3
+1.8.4	org.apache.tools.zip	0	11	0	0.9103448275862069	0.8571428571428571	-299
+1.9.0	org.apache.tools.ant	13	552	58	0.9594627594627595	0.3066974595842956	-3555
+1.9.0	org.apache.tools.ant.dispatch	1	3	3	0.6666666666666666	0.3076923076923077	1
+1.9.0	org.apache.tools.ant.filters	7	8	25	0.9532312925170068	0.6853582554517134	-1008
+1.9.0	org.apache.tools.ant.filters.util	4	7	11	-0.0	0.17391304347826086	1
+1.9.0	org.apache.tools.ant.helper	5	3	21	0.8605263157894737	0.5247524752475248	-114
+1.9.0	org.apache.tools.ant.input	3	6	5	0.7380952380952381	0.4888888888888889	1
+1.9.0	org.apache.tools.ant.listener	4	1	16	0.9166666666666666	0.3	-28
+1.9.0	org.apache.tools.ant.loader	2	1	3	1.0	0.0	-1
+1.9.0	org.apache.tools.ant.property	1	13	6	0.8392857142857143	0.35294117647058826	-10
+1.9.0	org.apache.tools.ant.taskdefs	23	94	195	0.9937061755512376	0.3876843018213356	-34887
+1.9.0	org.apache.tools.ant.taskdefs.compilers	5	2	22	0.8846153846153846	0.32558139534883723	-49
+1.9.0	org.apache.tools.ant.taskdefs.condition	8	39	37	0.9485887096774194	0.42323651452282157	-404
+1.9.0	org.apache.tools.ant.taskdefs.cvslib	4	0	13	0.8727272727272727	0.5185185185185185	-27
+1.9.0	org.apache.tools.ant.taskdefs.email	5	3	15	0.7321428571428571	0.5357142857142857	0
+1.9.0	org.apache.tools.ant.taskdefs.launcher	4	2	5	0.7555555555555555	0.6875	-15
+1.9.0	org.apache.tools.ant.taskdefs.optional	10	9	67	0.951058201058201	0.31759656652360513	-334
+1.9.0	org.apache.tools.ant.taskdefs.optional.ccm	4	0	12	0.8571428571428571	0.3	-9
+1.9.0	org.apache.tools.ant.taskdefs.optional.clearcase	5	0	12	0.9285714285714286	0.22413793103448276	-65
+1.9.0	org.apache.tools.ant.taskdefs.optional.depend	6	0	14	0.8055555555555556	0.6511627906976745	-12
+1.9.0	org.apache.tools.ant.taskdefs.optional.depend.constantpool	0	1	0	0.7941176470588235	0.9767441860465116	-61
+1.9.0	org.apache.tools.ant.taskdefs.optional.ejb	5	0	22	0.8789173789173789	0.6589147286821705	-223
+1.9.0	org.apache.tools.ant.taskdefs.optional.extension	4	3	12	0.8875	0.5346534653465347	-66
+1.9.0	org.apache.tools.ant.taskdefs.optional.extension.resolvers	3	1	6	1.0	0.0	-3
+1.9.0	org.apache.tools.ant.taskdefs.optional.i18n	4	0	8	NaN	0.0	0
+1.9.0	org.apache.tools.ant.taskdefs.optional.j2ee	3	0	7	0.5	0.5555555555555556	7
+1.9.0	org.apache.tools.ant.taskdefs.optional.javacc	4	0	14	0.6666666666666666	0.0975609756097561	1
+1.9.0	org.apache.tools.ant.taskdefs.optional.javah	5	1	14	0.65	0.2692307692307692	4
+1.9.0	org.apache.tools.ant.taskdefs.optional.jlink	4	0	6	0.75	0.5	0
+1.9.0	org.apache.tools.ant.taskdefs.optional.jsp	5	4	15	0.8333333333333334	0.24390243902439024	-7
+1.9.0	org.apache.tools.ant.taskdefs.optional.jsp.compilers	4	1	15	0.6666666666666666	0.20512820512820512	2
+1.9.0	org.apache.tools.ant.taskdefs.optional.native2ascii	5	1	11	0.7	0.3076923076923077	2
+1.9.0	org.apache.tools.ant.taskdefs.optional.net	2	0	3	0.5833333333333334	0.7142857142857143	0
+1.9.0	org.apache.tools.ant.taskdefs.optional.pvcs	4	0	12	0.5	0.14285714285714285	1
+1.9.0	org.apache.tools.ant.taskdefs.optional.script	4	0	13	0.5	0.42857142857142855	0
+1.9.0	org.apache.tools.ant.taskdefs.optional.sos	4	0	11	0.8333333333333334	0.3225806451612903	-5
+1.9.0	org.apache.tools.ant.taskdefs.optional.testing	4	0	12	0.6	0.47058823529411764	2
+1.9.0	org.apache.tools.ant.taskdefs.optional.unix	6	0	17	0.8333333333333334	0.12903225806451613	-2
+1.9.0	org.apache.tools.ant.taskdefs.optional.vss	4	0	12	0.8782051282051282	0.4418604651162791	-46
+1.9.0	org.apache.tools.ant.taskdefs.optional.windows	4	0	7	NaN	0.0	0
+1.9.0	org.apache.tools.ant.taskdefs.rmic	4	1	19	0.8055555555555556	0.35443037974683544	-10
+1.9.0	org.apache.tools.ant.types	12	408	89	0.9641441441441442	0.27658095899930507	-2447
+1.9.0	org.apache.tools.ant.types.mappers	4	0	7	1.0	0.0	-1
+1.9.0	org.apache.tools.ant.types.optional	6	0	12	0.9	0.12903225806451613	-6
+1.9.0	org.apache.tools.ant.types.optional.depend	4	0	9	0.5	0.35294117647058826	1
+1.9.0	org.apache.tools.ant.types.resources	11	73	46	0.9724025974025974	0.3359683794466403	-1398
+1.9.0	org.apache.tools.ant.types.resources.comparators	4	4	7	0.9	0.3673469387755102	-27
+1.9.0	org.apache.tools.ant.types.resources.selectors	7	22	20	0.9095238095238095	0.34234234234234234	-69
+1.9.0	org.apache.tools.ant.types.selectors	8	16	26	0.9136636636636637	0.5793450881612091	-462
+1.9.0	org.apache.tools.ant.types.selectors.modifiedselector	6	6	15	0.8454545454545455	0.5666666666666667	-27
+1.9.0	org.apache.tools.ant.types.spi	1	1	3	0.5	0.2222222222222222	1
+1.9.0	org.apache.tools.ant.util	9	247	33	0.9865464994775339	0.2893258426966292	-3670
+1.9.0	org.apache.tools.ant.util.depend	3	4	3	0.5	0.2	1
+1.9.0	org.apache.tools.ant.util.facade	2	6	4	0.5	0.125	1
+1.9.0	org.apache.tools.ant.util.java15	1	1	1	NaN	0.0	0
+1.9.0	org.apache.tools.ant.util.optional	2	0	6	1.0	0.0	-3
+1.9.0	org.apache.tools.ant.util.regexp	2	12	3	0.7380952380952381	0.4074074074074074	1
+1.9.0	org.apache.tools.bzip2	0	5	0	0.7380952380952381	0.7857142857142857	-5
+1.9.0	org.apache.tools.mail	0	2	0	0.75	0.75	0
+1.9.0	org.apache.tools.tar	1	4	2	0.8035714285714286	0.5789473684210527	-8
+1.9.0	org.apache.tools.zip	0	16	0	0.925	0.8785714285714286	-602

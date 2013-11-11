@@ -81,13 +81,15 @@ public class MainCharacteristics
 		int dependencyCount = project.getDependencyCount();
 		double mq = cc.calculateModularizationQuality();
 		int evm = cc.calculateEVM();
-		int interEdges = cc.calculateCohesion();
-		int extraEdges = cc.calculateCoupling();
+		double aff = cc.calculateAfferentCoupling();
+		double eff = cc.calculateEfferentCoupling();
+		//int interEdges = cc.calculateCohesion();
+		//int extraEdges = cc.calculateCoupling();
 		double lcom5 = cc.calculateLCOM5();
 		double cbo = cc.calculateCBO();
 		
-		DecimalFormat df4 = new DecimalFormat("0.0000");
-		System.out.println(versao + "; D: " + dependencyCount + "; IE: " + interEdges + "; XE: " + extraEdges + "; MQ: " + df4.format(mq) + "; EVM: " + evm + "; LCOM: " + df4.format(lcom5) + "; CBO: " + df4.format(cbo));
+		//DecimalFormat df4 = new DecimalFormat("0.0000");
+		System.out.println(versao + "; D: " + dependencyCount + "; CBO: " + cbo + "; AFF: " + aff + "; EFF: " + eff + "; MQ: " + mq + "; EVM: " + evm + "; LCOM: " + lcom5);
 	}
 
 	/**

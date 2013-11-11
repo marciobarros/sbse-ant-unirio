@@ -189,7 +189,6 @@ public class MainArchitectureDSM
 		bw.close();
 	}
 
-
 	/**
 	 * Saves the architecture DSM for all versions
 	 */

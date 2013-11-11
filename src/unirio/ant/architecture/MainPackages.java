@@ -20,7 +20,7 @@ public class MainPackages
 	{
 		FileOutputStream out = new FileOutputStream("package_metrics.data"); 
 		PrintStream ps = new PrintStream(out);
-		ps.println("version\tpackage\taffcoup\teffcoup\tcohe");
+		ps.println("version\tpackage\tcbo\taff\teff\tlcom\tmf\tcs");
 		
 		ProjectLoader loader = new ProjectLoader();
 		
@@ -30,7 +30,13 @@ public class MainPackages
 			ClusteringCalculator cc = new ClusteringCalculator(project, project.getPackageCount());
 			
 			for (int i = 0; i < project.getPackageCount(); i++)
-				ps.println(versao.substring(11) + "\t" + project.getPackageIndex(i).getName() + "\t" + cc.calculateAfferentCoupling(i) + "\t" + cc.calculateEfferentCoupling(i) + "\t" + cc.countIntraEdges(i));
+				ps.println(versao.substring(11) + "\t" + project.getPackageIndex(i).getName() + 
+							"\t" + cc.calculateCBO(i) + 
+							"\t" + cc.calculateAfferentCoupling(i) + 
+							"\t" + cc.calculateEfferentCoupling(i) + 
+							"\t" + cc.calculateLCOM5(i) +
+							"\t" + cc.calculateModularizationFactor(i) + 
+							"\t" + cc.calculateClusterScore(i));
 		}
 		
 		ps.close();

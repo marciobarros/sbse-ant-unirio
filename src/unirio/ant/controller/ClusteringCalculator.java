@@ -243,8 +243,11 @@ public class ClusteringCalculator
 	 */
 	public int calculateEfferentCoupling(int packageIndex)
 	{
-		int[] efferentClasses = new int[classCount];
+		boolean[] efferentClasses = new boolean[classCount];
 
+		for (int i = 0; i < classCount; i++)
+			efferentClasses[i] = false;
+		
 		for (int i = 0; i < classCount; i++)
 		{
 			int currentPackage = newPackage[i];
@@ -254,16 +257,34 @@ public class ClusteringCalculator
 			
 			for (int j = 0; j < classCount; j++)
 				if (dependencies[i][j] > 0 && newPackage[j] != currentPackage)
-					efferentClasses[j] = 1;
+					efferentClasses[j] = true;
 		}
 
 		int count = 0;
 		
 		for (int i = 0; i < classCount; i++)
-			if (efferentClasses[i] > 0)
+			if (efferentClasses[i])
 				count++;
 
 		return count;
+	}
+
+	/**
+	 * 
+	 */
+	public double calculateEfferentCoupling()
+	{
+		double sum = 0.0;
+		int count = 0;
+		
+		for (int i = 0; i < packageCount; i++)
+			if (getClassCount(i) > 0)
+			{
+				sum += calculateEfferentCoupling(i);
+				count++;
+			}
+		
+		return sum / count;
 	}
 
 	/**
@@ -313,6 +334,24 @@ public class ClusteringCalculator
 		}
 
 		return afferentClasses;
+	}
+
+	/**
+	 * Calcula o numero de dependências de classes externas a um pacote que dependem dele
+	 */
+	public double calculateAfferentCoupling()
+	{
+		double sum = 0.0;
+		int count = 0;
+		
+		for (int i = 0; i < packageCount; i++)
+			if (getClassCount(i) > 0)
+			{
+				sum += calculateAfferentCoupling(i);
+				count++;
+			}
+		
+		return sum / count;
 	}
 	
 	/**
@@ -405,6 +444,45 @@ public class ClusteringCalculator
 	/**
 	 * Calcula o coeficiente de modularidade do projeto
 	 */
+	public double calculateModularizationFactor(int packageIndex)
+	{
+		int[] inboundEdges = new int[packageCount];
+		int[] outboundEdges = new int[packageCount];
+		int[] intraEdges = new int[packageCount];
+
+		for (int i = 0; i < classCount; i++)
+		{
+			int sourcePackage = newPackage[i];
+			
+			for (int j = 0; j < classCount; j++)
+			{
+				if (dependencies[i][j] > 0)
+				{
+					int targetPackage = newPackage[j];
+					
+					if (targetPackage != sourcePackage)
+					{
+						outboundEdges[sourcePackage]++;
+						inboundEdges[targetPackage]++;
+					}
+					else
+						intraEdges[sourcePackage]++;
+				}
+			}
+		}
+		
+		int inter = inboundEdges[packageIndex] + outboundEdges[packageIndex];
+		int intra = intraEdges[packageIndex];
+		
+		if (intra != 0 && inter != 0)
+			return intra / (intra + 0.5 * inter);
+
+		return 0.0;
+	}
+
+	/**
+	 * Calcula o coeficiente de modularidade do projeto
+	 */
 	public double calculateModularizationQuality()
 	{
 		int[] inboundEdges = new int[packageCount];
@@ -447,6 +525,35 @@ public class ClusteringCalculator
 		}
 
 		return mq;
+	}
+
+	/**
+	 * Calcula o cluster score de um pacote
+	 */
+	public int calculateClusterScore(int packageIndex)
+	{
+		int score = 0;
+
+		for (int i = 0; i < classCount-1; i++)
+		{
+			int sourcePackage = newPackage[i];
+
+			if (sourcePackage == packageIndex)
+			{
+				for (int j = i+1; j < classCount; j++)
+				{
+					int targetPackage = newPackage[j];
+	
+					if (targetPackage == sourcePackage)
+						if (dependencies[i][j] > 0 || dependencies[j][i] > 0) 
+							score++;
+						else
+							score--; 
+				}
+			}
+		}
+
+		return score;
 	}
 
 	/**
@@ -553,7 +660,7 @@ public class ClusteringCalculator
 	/**
 	 * Calcula o LCOM5 de um pacote, dado seu índice
 	 */
-	private double calculateLCOM5(int packageIndex)
+	public double calculateLCOM5(int packageIndex)
 	{
 		int classesOnPackage = getClassCount(packageIndex);
 		int[] _classes = getPackageClasses(packageIndex);
@@ -604,7 +711,11 @@ public class ClusteringCalculator
 	 */
 	public int calculateCBO(int packageIndex)
 	{
-		int cbo = 0;
+		boolean[] knownDependencies = new boolean[packageCount];
+		int totalDependencies = 0;
+
+		for (int i = 0; i < packageCount; i++)
+			knownDependencies[i] = false;
 
 		for (int i = 0; i < classCount; i++)
 		{
@@ -613,12 +724,19 @@ public class ClusteringCalculator
 			if (currentPackage == packageIndex)
 			{
 				for (int j = 0; j < classCount; j++)
-					if (dependencies[i][j] > 0 && newPackage[j] != currentPackage)
-						cbo++;
+				{
+					int myPackage = newPackage[j];
+			
+					if (dependencies[i][j] > 0 && myPackage != currentPackage && !knownDependencies[myPackage])
+					{
+						totalDependencies++;
+						knownDependencies[myPackage] = true;
+					}
+				}
 			}
 		}
 
-		return cbo;
+		return totalDependencies;
 	}
 
 	/**
