@@ -1,8 +1,9 @@
-package unirio.ant.architecture;
+package unirio.ant.calc.metrics;
 
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
+import unirio.ant.calc.loader.ProjectLoader;
 import unirio.ant.controller.ClusteringCalculator;
 import unirio.ant.model.Project;
 

@@ -1,4 +1,4 @@
-package unirio.ant.architecture;
+package unirio.ant.calc.architecture;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import unirio.ant.controller.ClusteringCalculator;
+import unirio.ant.calc.loader.ProjectLoader;
 import unirio.ant.model.Project;
 import unirio.ant.model.ProjectPackage;
 
@@ -51,17 +51,20 @@ public class MainArchitectureChart
 
 		for (ProjectPackage sourcePackage : allPackages)
 		{
-			List<ProjectPackage> dependencies = getOrderedPackages(project.getPackageDependencies(sourcePackage));
-
-			bw.write(sourcePackage.getName());
-
-			for (ProjectPackage targetPackage : dependencies)
+			if (project.getClassCount(sourcePackage.getName()) > 0)
 			{
-				int targetIndex = allPackages.indexOf(targetPackage);
-				bw.write("; " + targetIndex);
+				List<ProjectPackage> dependencies = getOrderedPackages(project.getPackageDependencies(sourcePackage));
+	
+				bw.write(sourcePackage.getName());
+	
+				for (ProjectPackage targetPackage : dependencies)
+				{
+					int targetIndex = allPackages.indexOf(targetPackage);
+					bw.write("; " + targetIndex);
+				}
+				
+				bw.write("\n");
 			}
-			
-			bw.write("\n");
 		}
 		
 		bw.close();
@@ -74,20 +77,16 @@ public class MainArchitectureChart
 	{
 		ProjectLoader loader = new ProjectLoader();
 		
-		/*for (String versao : loader.getRealVersions())
+		for (String versao : loader.getRealVersions())
 		{
 			Project project = loader.loadRealVersion(versao);
 			saveDependencies(project, DIRETORIO_SAIDA + versao + ".txt");
-		}*/
+		}
 
-		Project projectEVM = loader.loadOptimizedVersionEVM();
-		int evm = new ClusteringCalculator(projectEVM, projectEVM.getPackageCount()).calculateEVM();
-		if (evm != -8170) throw new Exception("Erro no cálculo do EVM");
+		Project projectEVM = loader.loadOptimizedVersionsEVM().get(0);
 		saveDependencies(projectEVM, DIRETORIO_SAIDA + "evm_optimized.txt");
 
-		Project projectMQ = loader.loadOptimizedVersionMQ();
-		double mq = new ClusteringCalculator(projectMQ, projectMQ.getPackageCount()).calculateModularizationQuality();
-		if (Math.abs(mq - 43.0896) > 0.0001) throw new Exception("Erro no cálculo do MQ");
+		Project projectMQ = loader.loadOptimizedVersionsMQ().get(0);
 		saveDependencies(projectMQ, DIRETORIO_SAIDA + "mq_optimized.txt");
 		
 		System.out.println("Finished!");

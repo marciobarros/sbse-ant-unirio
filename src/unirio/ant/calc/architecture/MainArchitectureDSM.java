@@ -1,4 +1,4 @@
-package unirio.ant.architecture;
+package unirio.ant.calc.architecture;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
+import unirio.ant.calc.loader.ProjectLoader;
 import unirio.ant.controller.ClusteringCalculator;
 import unirio.ant.model.Project;
 import unirio.ant.model.ProjectPackage;
@@ -196,20 +197,20 @@ public class MainArchitectureDSM
 	{
 		ProjectLoader loader = new ProjectLoader();
 		
-		/*for (String versao : loader.getRealVersions())
+		for (String versao : loader.getRealVersions())
 		{
 			Project project = loader.loadRealVersion(versao);
 			saveDependencies(project, DIRETORIO_SAIDA + versao + ".txt");
-		}*/
+		}
 
-		Project projectEVM = loader.loadOptimizedVersionEVM();
+		Project projectEVM = loader.loadOptimizedVersionsEVM().get(0);
 		int evm = new ClusteringCalculator(projectEVM, projectEVM.getPackageCount()).calculateEVM();
 		if (evm != 778) throw new Exception("Erro no cálculo do EVM");
 		saveDependencies(projectEVM, DIRETORIO_SAIDA + "evm_optimized.txt");
 
-		Project projectMQ = loader.loadOptimizedVersionMQ();
+		Project projectMQ = loader.loadOptimizedVersionsMQ().get(0);
 		double mq = new ClusteringCalculator(projectMQ, projectMQ.getPackageCount()).calculateModularizationQuality();
-		if (Math.abs(mq - 101.5508) > 0.0001) throw new Exception("Erro no cálculo do MQ");
+		if (Math.abs(mq - 101.5269) > 0.0001) throw new Exception("Erro no cálculo do MQ");
 		saveDependencies(projectMQ, DIRETORIO_SAIDA + "mq_optimized.txt");
 		
 		System.out.println("Finished!");

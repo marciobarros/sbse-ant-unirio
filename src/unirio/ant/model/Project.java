@@ -138,6 +138,20 @@ public class Project
 	{
 		return classes.size();
 	}
+	
+	/**
+	 * Retorna o número de classes em um pacote do projeto
+	 */
+	public int getClassCount(String packageName)
+	{
+		int count = 0;
+		
+		for (ProjectClass _class : classes)
+			if (_class.getPackage().getName().compareToIgnoreCase(packageName) == 0)
+				count++;
+		
+		return count;
+	}
 
 	/**
 	 * Retorna uma classe, dado seu índice no projeto

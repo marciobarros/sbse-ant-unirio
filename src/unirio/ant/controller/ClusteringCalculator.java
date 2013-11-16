@@ -169,7 +169,7 @@ public class ClusteringCalculator
 	/**
 	 * Retorna o número de movimentos de classes
 	 */
-	private int getMinimumClassCount()
+	public int getMinimumClassCount()
 	{
 		int min = Integer.MAX_VALUE;
 
@@ -187,7 +187,7 @@ public class ClusteringCalculator
 	/**
 	 * Retorna o número de movimentos de classes
 	 */
-	private int getMaximumClassCount()
+	public int getMaximumClassCount()
 	{
 		int max = Integer.MIN_VALUE;
 
@@ -755,5 +755,19 @@ public class ClusteringCalculator
 			}
 		
 		return sum / count;
+	}
+
+	/**
+	 * Conta o número de pacotes com apenas uma classe
+	 */
+	public int countSingleClassPackages()
+	{
+		int count = 0;
+
+		for (int i = 0; i < packageCount; i++)
+			if (newClasses[i] == 1)
+				count++;
+
+		return count;
 	}
 }

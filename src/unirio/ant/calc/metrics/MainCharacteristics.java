@@ -1,4 +1,4 @@
-package unirio.ant.architecture;
+package unirio.ant.calc.metrics;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -6,9 +6,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Enumeration;
+import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+import unirio.ant.calc.loader.ProjectLoader;
 import unirio.ant.controller.ClusteringCalculator;
 import unirio.ant.model.Project;
 
@@ -22,6 +24,7 @@ import com.sun.org.apache.bcel.internal.classfile.Method;
  * 
  * @author Marcio
  */
+@SuppressWarnings("unused")
 public class MainCharacteristics
 {
 	private static String JAR_DIRECTORY = "\\Users\\Marcio\\Desktop\\Resultados Pesquisa\\Resultados Clustering Apache ANT\\versoes";
@@ -72,9 +75,9 @@ public class MainCharacteristics
 	}
 	
 	/**
-	 * Publishes the characteristics and metrics for a given project
+	 * Publishes the characteristics and metrics for the coupling a given project
 	 */
-	private static void publishProjectInformation(String versao, Project project) throws Exception
+	private static void publishCouplingInformation(String versao, Project project) throws Exception
 	{
 		ClusteringCalculator cc = new ClusteringCalculator(project, project.getPackageCount());
 		int dependencyCount = project.getDependencyCount();
@@ -82,13 +85,22 @@ public class MainCharacteristics
 		int evm = cc.calculateEVM();
 		double aff = cc.calculateAfferentCoupling();
 		double eff = cc.calculateEfferentCoupling();
-		//int interEdges = cc.calculateCohesion();
-		//int extraEdges = cc.calculateCoupling();
 		double lcom5 = cc.calculateLCOM5();
 		double cbo = cc.calculateCBO();
-		
-		//DecimalFormat df4 = new DecimalFormat("0.0000");
 		System.out.println(versao + "; D: " + dependencyCount + "; CBO: " + cbo + "; AFF: " + aff + "; EFF: " + eff + "; MQ: " + mq + "; EVM: " + evm + "; LCOM: " + lcom5);
+	}
+
+	/**
+	 * Publishes the characteristics and metrics for the size of a given project
+	 */
+	private static void publishSizeInformation(String versao, Project project) throws Exception
+	{
+		ClusteringCalculator cc = new ClusteringCalculator(project, project.getPackageCount());
+		int packageCount = cc.getPackageCount();
+		int singleClassPackages = cc.countSingleClassPackages();
+		int maximumClassConcentration = cc.getMaximumClassCount();
+		double elegance = cc.calculateClassElegance();
+		System.out.println(versao + "; P: " + packageCount + "; ELG: " + elegance + "; SCP: " + singleClassPackages + "; CONC: " + maximumClassConcentration);
 	}
 
 	/**
@@ -103,22 +115,22 @@ public class MainCharacteristics
 		MainCharacteristics mc = new MainCharacteristics();
 		ProjectLoader loader = new ProjectLoader();
 		
-		for (String versao : loader.getRealVersions())
+		/*for (String versao : loader.getRealVersions())
 		{
 			mc.transverseJarFile(JAR_DIRECTORY + "\\" + versao + "\\ant.jar", versao.substring(11), ps);
 			Project project = loader.loadRealVersion(versao);
-			publishProjectInformation(versao, project);
-		}		
+			publishCouplingInformation(versao, project);
+		}*/
 		
-		/*Project projectEVM = loader.loadOptimizedVersionEVM();
-		int evm = new ClusteringCalculator(projectEVM, projectEVM.getPackageCount()).calculateEVM();
-		if (evm != -8170) throw new Exception("Erro no cálculo do EVM");
-		publishProjectInformation("EMVopt", projectEVM);
+		List<Project> projectsEVM = loader.loadOptimizedVersionsEVM();
+		
+		for (Project project : projectsEVM)
+			publishSizeInformation("EMVopt", project);
 
-		Project projectMQ = loader.loadOptimizedVersionMQ();
-		double mq = new ClusteringCalculator(projectMQ, projectMQ.getPackageCount()).calculateModularizationQuality();
-		if (Math.abs(mq - 43.0896) > 0.0001) throw new Exception("Erro no cálculo do MQ");
-		publishProjectInformation("MQopt", projectMQ);*/
+		List<Project> projectsMQ = loader.loadOptimizedVersionsMQ();
+
+		for (Project project : projectsMQ)
+			publishSizeInformation("MQopt", project);
 		
 		ps.close();
 		System.out.println("Finished!");
