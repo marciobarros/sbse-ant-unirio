@@ -74,11 +74,11 @@ public class MainArchitectureChart
 	{
 		ProjectLoader loader = new ProjectLoader();
 		
-		for (String versao : loader.getRealVersions())
+		/*for (String versao : loader.getRealVersions())
 		{
 			Project project = loader.loadRealVersion(versao);
 			saveDependencies(project, DIRETORIO_SAIDA + versao + ".txt");
-		}
+		}*/
 
 		Project projectEVM = loader.loadOptimizedVersionEVM();
 		int evm = new ClusteringCalculator(projectEVM, projectEVM.getPackageCount()).calculateEVM();

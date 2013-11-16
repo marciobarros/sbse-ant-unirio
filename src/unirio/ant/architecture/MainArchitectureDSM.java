@@ -204,12 +204,12 @@ public class MainArchitectureDSM
 
 		Project projectEVM = loader.loadOptimizedVersionEVM();
 		int evm = new ClusteringCalculator(projectEVM, projectEVM.getPackageCount()).calculateEVM();
-		if (evm != -8170) throw new Exception("Erro no cálculo do EVM");
+		if (evm != 778) throw new Exception("Erro no cálculo do EVM");
 		saveDependencies(projectEVM, DIRETORIO_SAIDA + "evm_optimized.txt");
 
 		Project projectMQ = loader.loadOptimizedVersionMQ();
 		double mq = new ClusteringCalculator(projectMQ, projectMQ.getPackageCount()).calculateModularizationQuality();
-		if (Math.abs(mq - 43.0896) > 0.0001) throw new Exception("Erro no cálculo do MQ");
+		if (Math.abs(mq - 101.5508) > 0.0001) throw new Exception("Erro no cálculo do MQ");
 		saveDependencies(projectMQ, DIRETORIO_SAIDA + "mq_optimized.txt");
 		
 		System.out.println("Finished!");
