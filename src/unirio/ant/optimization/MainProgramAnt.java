@@ -61,7 +61,7 @@ public class MainProgramAnt
 
 	public static final void main(String[] args) throws Exception
 	{
-		Project project = new CDAReader().execute("data\\odem\\apache_ant.odem");
+		Project project = new CDAReader().execute("data\\odem\\apache-ant-1.9.0.odem");
 		PrintWriter pw = new PrintWriter(new File("saida.txt"));
 
 		int classCount = project.getClassCount();

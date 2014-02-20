@@ -210,6 +210,9 @@ public class HillClimbingClusteringEVM
 		return bestSolution;
 	}
 
+	/**
+	 * Generates a class order having one class per package
+	 */
 	public int[] generateBasicClassOrder(int classCount)
 	{
 		int[] classes = new int[classCount];
@@ -220,6 +223,23 @@ public class HillClimbingClusteringEVM
 		return classes;
 	}
 
+	/**
+	 * Generates a class order resembling the source-code
+	 */
+	public int[] generateCodeClassOrder(Project project)
+	{
+		int classCount = project.getClassCount();
+		int[] classes = new int[classCount];
+		
+		for (int i = 0; i < classCount; i++)
+			classes[i] = project.getIndexForPackage(project.getClassIndex(i).getPackage());
+		
+		return classes;
+	}
+
+	/**
+	 * Generates a random class order
+	 */
 	public int[] generateRandomClassOrder(int classCount)
 	{
 		int[] classes = new int[classCount];

@@ -29,7 +29,6 @@
             <depends-on name="org.apache.tools.ant.util.CollectionUtils$EmptyEnumeration" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildListener" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.LoaderUtils" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.CollectionUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.JavaEnvUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.ReflectUtil" classification="uses" />
@@ -93,7 +92,6 @@
             <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.ProjectHelper" classification="uses" />
             <depends-on name="org.apache.tools.ant.taskdefs.Definer" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Launcher" classification="uses" />
           </dependencies>
         </type>
         <type name="org.apache.tools.ant.DefaultLogger" classification="class" visibility="public">
@@ -146,7 +144,6 @@
             <depends-on name="org.apache.tools.ant.Main" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.JAXPUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.JavaEnvUtils" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Launcher" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
           </dependencies>
         </type>
@@ -447,7 +444,6 @@
         </type>
         <type name="org.apache.tools.ant.Main" classification="class" visibility="public">
           <dependencies count="26">
-            <depends-on name="org.apache.tools.ant.launch.AntMain" classification="uses" />
             <depends-on name="org.apache.tools.ant.property.GetProperty" classification="uses" />
             <depends-on name="org.apache.tools.ant.ExitStatusException" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
@@ -527,7 +523,6 @@
             <depends-on name="org.apache.tools.ant.types.resources.FileResource" classification="uses" />
             <depends-on name="org.apache.tools.ant.ComponentHelper" classification="uses" />
             <depends-on name="org.apache.tools.ant.Main" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
             <depends-on name="org.apache.tools.ant.PropertyHelper" classification="uses" />
             <depends-on name="org.apache.tools.ant.types.Description" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.JavaEnvUtils" classification="uses" />
@@ -859,7 +854,6 @@
           <dependencies count="4">
             <depends-on name="org.apache.tools.ant.filters.BaseFilterReader" classification="extends" />
             <depends-on name="org.apache.tools.ant.filters.ChainableReader" classification="implements" />
-            <depends-on name="org.apache.tools.ant.filters.util.JavaClassHelper" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
           </dependencies>
         </type>
@@ -1351,7 +1345,6 @@
             <depends-on name="org.apache.tools.ant.helper.ProjectHelper2$MainHandler" classification="uses" />
             <depends-on name="org.apache.tools.ant.helper.ProjectHelper2$ProjectHandler" classification="uses" />
             <depends-on name="org.apache.tools.ant.util.JAXPUtils" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
             <depends-on name="org.apache.tools.zip.ZipEntry" classification="uses" />
           </dependencies>
         </type>
@@ -3311,7 +3304,6 @@
             <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
             <depends-on name="org.apache.tools.ant.Project" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
           </dependencies>
         </type>
         <type name="org.apache.tools.ant.taskdefs.ManifestException" classification="class" visibility="public">
@@ -6458,7 +6450,6 @@
             <depends-on name="org.apache.tools.ant.types.Path" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
             <depends-on name="org.apache.tools.ant.Location" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
             <depends-on name="org.apache.tools.ant.Project" classification="uses" />
             <depends-on name="org.apache.tools.ant.ProjectComponent" classification="uses" />
             <depends-on name="org.apache.tools.ant.types.Commandline$Argument" classification="uses" />
@@ -9193,7 +9184,6 @@
             <depends-on name="org.apache.tools.ant.util.ResourceUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.types.Resource" classification="uses" />
             <depends-on name="org.apache.tools.ant.types.resources.Touchable" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
             <depends-on name="org.apache.tools.ant.taskdefs.condition.Os" classification="uses" />
           </dependencies>
         </type>
@@ -9315,7 +9305,6 @@
           <dependencies count="3">
             <depends-on name="org.apache.tools.ant.util.FileUtils" classification="uses" />
             <depends-on name="org.apache.tools.ant.BuildException" classification="uses" />
-            <depends-on name="org.apache.tools.ant.launch.Locator" classification="uses" />
           </dependencies>
         </type>
         <type name="org.apache.tools.ant.util.MergingMapper" classification="class" visibility="public">
