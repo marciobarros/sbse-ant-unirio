@@ -22,9 +22,12 @@ for (version_ in versions)
 
 result
 
+pdf("c:/Users/Marcio Barros/Desktop/coupling.pdf", width=16, height=10)
+par(mfrow=c(2, 3))
 boxplot(data$cbo~data$version, main="CBO");
 boxplot(data$aff~data$version, main="Afferent Coupling");
 boxplot(data$eff~data$version, main="Efferent Coupling");
 boxplot(data$lcom~data$version, main="LCOM");
 boxplot(data$mf~data$version, main="Modularization Factor");
 boxplot(data$cs~data$version, outline=FALSE, main="Cluster Score");
+dev.off();

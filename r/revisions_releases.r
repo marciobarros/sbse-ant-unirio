@@ -47,8 +47,15 @@ for (version_ in versions)
 
 result
 
-boxplot(data$classes~data$version, outline=FALSE, cex.axis=0.75, main="Classes affected by commits (without outliers)")
+# prepare the plots
+pdf("c:/Users/Marcio Barros/Desktop/revision_classes.pdf", width=16, height=5)
+par(mfrow=c(1, 2))
 boxplot(data$classes~data$version, range=0, cex.axis=0.75, main="Classes affected by commits (with outliers)")
+boxplot(data$classes~data$version, outline=FALSE, cex.axis=0.75, main="Classes affected by commits (without outliers)")
+dev.off();
 
-boxplot(data$packages~data$version, outline=FALSE, cex.axis=0.75, main="Packages affected by commits (without outliers)")
+pdf("c:/Users/Marcio Barros/Desktop/revision_packages.pdf", width=16, height=5)
+par(mfrow=c(1, 2))
 boxplot(data$packages~data$version, range=0, cex.axis=0.75, main="Packages affected by commits (with outliers)")
+boxplot(data$packages~data$version, outline=FALSE, cex.axis=0.75, main="Packages affected by commits (without outliers)")
+dev.off();
